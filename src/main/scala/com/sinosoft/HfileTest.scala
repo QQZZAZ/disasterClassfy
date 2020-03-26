@@ -1,19 +1,31 @@
 package com.sinosoft
 
+
+import com.sinosoft.javas.{HashAl, KeyQualifierComparator}
 import org.apache.hadoop.conf.Configuration
-import org.apache.hadoop.hbase.{HBaseConfiguration, KeyValue}
+import org.apache.hadoop.fs.Path
+import org.apache.hadoop.hbase.client.HTable
+import org.apache.hadoop.hbase.{HBaseConfiguration, KeyValue, TableName}
 import org.apache.hadoop.hbase.io.ImmutableBytesWritable
+import org.apache.hadoop.hbase.mapred.TableOutputFormat
 import org.apache.hadoop.hbase.mapreduce.HFileOutputFormat2
 import org.apache.hadoop.hbase.util.Bytes
+import org.apache.hadoop.mapreduce.Job
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{Partitioner, SparkConf}
 import org.apache.spark.sql.SparkSession
+import org.apache.hadoop.hbase.mapreduce.LoadIncrementalHFiles
+import org.apache.hadoop.hbase.client.Admin
+import org.apache.hadoop.hbase.client.Connection
+import org.apache.hadoop.hbase.client.ConnectionFactory
+import org.apache.hadoop.hbase.mapreduce.LoadIncrementalHFiles
 
-import scala.collection.mutable
+import scala.collection.mutable.ArrayBuffer
 
 object HfileTest {
 
   case class ResultKV(k: ImmutableBytesWritable, v: KeyValue)
+
   def main(args: Array[String]): Unit = {
 
 
@@ -37,30 +49,71 @@ object HfileTest {
       .getOrCreate()
 
     val conf = HBaseConfiguration.create()
-    conf.set("hbase.zookeeper.quorum", "")
+    conf.set("hbase.zookeeper.quorum", "localhost")
     conf.set("hbase.zookeeper.property.clientPort", "2181")
+    val tableName = "blog"
+    val connection = ConnectionFactory.createConnection(conf)
+
+    val table = connection.getTable(TableName.valueOf("blog"))
+    conf.set(TableOutputFormat.OUTPUT_TABLE, tableName);
+    val job = Job.getInstance(conf)
+    job.setMapOutputKeyClass(classOf[ImmutableBytesWritable])
+    job.setMapOutputValueClass(classOf[KeyValue])
+    HFileOutputFormat2.configureIncrementalLoad(job,
+      table,
+      connection.getRegionLocator(TableName.valueOf("blog")))
+
+
+    val arr = new ArrayBuffer[String]()
+    for (i <- 50000 to 100000) {
+      arr.append(i.toString)
+    }
 
     val sc = spark.sparkContext
     // 模拟一个rdd生成  map是列名和列值  还没有指定列族
-    val rdd = sc.parallelize((1 to 500).map(rowkey => {
+    val rdd = sc.parallelize((50000 to 100000).map(rowkey => {
       rowkey -> Map("column1" -> (rowkey.toString + "column"), "column2" -> (rowkey + "column2"))
     }), 50)
 
-    /*implicit val bytesOrdering = new Ordering[Int] {
-      override def compare(a: Int, b: Int) = {
-        val ord = Bytes.compareTo(Bytes.toBytes(a), Bytes.toBytes(b))
-        // if (ord == 0) throw KeyDuplicatedException(a.toString)
-        ord
-      }
-    }*/
 
-    rdd.repartitionAndSortWithinPartitions(new HFilePartitioner(Array("111112","3213213")))
+    println(rdd.getNumPartitions)
+
+    /**
+      * key怎么排序，在这里定义
+      * 为什么在这里声明一个隐式变量呢，是因为在源码中，方法中有一个隐式参数；不设置是按照默认的排序规则进行排序
+      */
+    implicit val my_self_Ordering = new Ordering[String] {
+      override def compare(a: String, b: String): Int = {
+        val a_b: Array[String] = a.split("_")
+        val a_1 = a_b(0).toInt
+        val a_2 = a_b(1).toInt
+        val b_b = b.split("_")
+        val b_1 = b_b(0).toInt
+        val b_2 = b_b(1).toInt
+        if (a_1 == b_1) {
+          a_2 - b_2
+        } else {
+          a_1 - b_1
+        }
+      }
+    }
+
+    rdd.repartitionAndSortWithinPartitions(new HFilePartitioner(50))
       .flatMap {
         case (key, columns) =>
           val rowkey = new ImmutableBytesWritable()
-          rowkey.set(Bytes.toBytes(key)) //设置rowkey
+          var keyN = HashAl.RSHash(key.toString, 49)
+          val hash = HashAl.getHash(key.toString)
+          var resultK = ""
+          if (keyN.toString.size >= 2) {
+            resultK = "00" + keyN + "|" + hash
+          } else {
+            resultK = "000" + keyN + "|" + hash
+          }
+          //          println("resultK " + resultK)
+          rowkey.set(Bytes.toBytes(resultK)) //设置rowkey
+
           val kvs = new java.util.TreeSet[KeyValue](KeyValue.COMPARATOR)
-//          val kvs = new mutable.TreeSet[KeyValue](KeyValue.COMPARATOR)
 
           columns.foreach(ele => {
             val (column, value) = ele // 每一条数据两个列族  对应map里面的两列
@@ -69,29 +122,44 @@ object HfileTest {
           })
           import scala.collection.JavaConversions._
           kvs.toSeq.map(kv => (rowkey, kv))
-      }.saveAsNewAPIHadoopFile("aaaa",
+      }.saveAsNewAPIHadoopFile("D:/Hfile/blog.hfile",
       classOf[ImmutableBytesWritable],
       classOf[KeyValue],
       classOf[HFileOutputFormat2],
       conf)
+
+    val admin = connection.getAdmin
+    val table2 = connection.getTable(TableName.valueOf("blog"))
+    val load = new LoadIncrementalHFiles(conf)
+    val start = System.currentTimeMillis()
+    load.doBulkLoad(new Path("D:/Hfile/blog.hfile"),
+      admin,
+      table2,
+      connection.getRegionLocator(TableName.valueOf("blog")))
+
+    val end = System.currentTimeMillis()
+    println(end - start + "ms")
+    spark.close()
+    sc.stop()
   }
 
 }
 
-class HFilePartitioner(startkeyArr: Array[String]) extends Partitioner {
+class HFilePartitioner(num: Int) extends Partitioner {
 
-  override def numPartitions: Int = startkeyArr.length
+  override def numPartitions: Int = num
 
   override def getPartition(key: Any): Int = {
-    val domain = key.asInstanceOf[String]
+    val domain = key.toString
 
-    for (i <- 0 until startkeyArr.length) {
-      if (domain.toString().compare(startkeyArr(i)) < 0) {
-        return i - 1
-      }
-    }
+    /* for (i <- 0 until startkeyArr.length) {
+       if (domain.toString().compare(startkeyArr(i)) < 0) {
+         return i - 1
+       }
+     }*/
     //default return 1
-    return startkeyArr.length - 1
+    var n = HashAl.RSHash(domain, 49)
+    n
   }
 
   override def equals(other: Any): Boolean = other match {
@@ -101,6 +169,7 @@ class HFilePartitioner(startkeyArr: Array[String]) extends Partitioner {
       false
   }
 }
+
 
 
 
