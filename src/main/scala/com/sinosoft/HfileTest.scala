@@ -22,6 +22,12 @@ import org.apache.hadoop.hbase.mapreduce.LoadIncrementalHFiles
 
 import scala.collection.mutable.ArrayBuffer
 
+/**
+  * 重点在repartitionAndSortWithinPartitions算子的使用
+  * 分区排序，分区内部key排序
+  * 如果不这样做，hbase写入会报错
+  * Added a key not lexically larger than previous
+  */
 object HfileTest {
 
   case class ResultKV(k: ImmutableBytesWritable, v: KeyValue)
@@ -81,6 +87,7 @@ object HfileTest {
     /**
       * key怎么排序，在这里定义
       * 为什么在这里声明一个隐式变量呢，是因为在源码中，方法中有一个隐式参数；不设置是按照默认的排序规则进行排序
+      *
       */
     implicit val my_self_Ordering = new Ordering[String] {
       override def compare(a: String, b: String): Int = {
@@ -110,7 +117,6 @@ object HfileTest {
           } else {
             resultK = "000" + keyN + "|" + hash
           }
-          //          println("resultK " + resultK)
           rowkey.set(Bytes.toBytes(resultK)) //设置rowkey
 
           val kvs = new java.util.TreeSet[KeyValue](KeyValue.COMPARATOR)
