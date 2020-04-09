@@ -106,11 +106,16 @@ object StructruedStreamingCountPV {
           }
           state.update(updatedSession)
 
+          // 事件时间模式下，不需要设置超时时间，会根据Watermark机制自动超时
+          // 处理时间模式下，可设置个超时时间，根据超时时间清理状态，避免状态无限增加
+          // groupState.setTimeoutDuration(1 * 10 * 1000)
+
           // Set timeout such that the session will be expired if no data received for 10 seconds
 
           //可以设置最小和最大时间的 事件时间间隔 之后清除状态 前置必须是GroupStateTimeout.EventTimeTimeout()
 //          state.setTimeoutTimestamp(timestamps.min,"1 minutes")
           //初次事件造成之后的30秒后清除状态 前置必须是GroupStateTimeout.ProcessingTimeTimeout()
+          //一旦属于初始创建或者更新，则重置30秒的超时时间
           state.setTimeoutDuration("30 seconds")
           SessionUpdate(sessionId, state.get.durationMs, state.get.numEvents, expired = false)
         }

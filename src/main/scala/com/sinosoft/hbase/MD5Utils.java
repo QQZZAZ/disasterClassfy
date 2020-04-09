@@ -64,7 +64,7 @@ public class MD5Utils {
      * @param bytes 字节数组
      * @return 十六进制字符串
      */
-    private static String byteArrayToHexString(byte[] bytes) {
+    public static String byteArrayToHexString(byte[] bytes) {
         StringBuffer buffer = new StringBuffer();
         for (int i = 0; i < bytes.length; i++) {
             buffer.append(byteToHexString(bytes[i]));

@@ -1,5 +1,7 @@
 package com.sinosoft.javas;
 
+import com.sinosoft.hbase.MD5Utils;
+
 import java.io.Serializable;
 
 public class HashAl implements Serializable {
@@ -28,7 +30,7 @@ public class HashAl implements Serializable {
         }
 
         long num = (hash & 0xffffffffffffffffl);
-        return Math.abs(num);
+        return num;
     }
 
     public static void main(String[] args) {
@@ -37,8 +39,12 @@ public class HashAl implements Serializable {
 
         System.out.println(a);
         System.out.println(b);
+        long c = getHash("https://www");
 
+        System.out.println(String.valueOf(c));
+        System.out.println(MD5Utils.byteArrayToHexString(String.valueOf(c).getBytes()));
 
+        System.out.println(MD5Utils.byteArrayToHexString(String.valueOf(8709613226085308405l).getBytes()));
 //        System.out.println(Math.abs(a) % 299);
     }
 
