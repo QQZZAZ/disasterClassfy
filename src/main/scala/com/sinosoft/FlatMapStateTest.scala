@@ -1,8 +1,8 @@
 package com.sinosoft
+import java.sql.Timestamp
 import java.util.Calendar
 
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.sql.execution.streaming.FileStreamSource.Timestamp
 import org.apache.spark.sql.streaming.{GroupStateTimeout, OutputMode}
 
 object FlatMapStateTest {
