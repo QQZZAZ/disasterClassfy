@@ -11,7 +11,9 @@ import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SparkSession
 
 
-
+/**
+  * 百万计数据的推荐系统
+  */
 object ModelBasedCF {
   case class Rating(userId: Int, movieId: Int, rating: Double)
   /** 基于dt时间获取原始数据源
