@@ -7,6 +7,7 @@ import org.apache.log4j.{Level, Logger}
 import org.apache.spark.HashPartitioner
 import org.apache.spark.sql.{Row, SparkSession}
 import org.apache.spark.sql.streaming.ProcessingTime
+import org.apache.spark.sql.types.StructType
 import org.json.JSONObject
 
 import scala.collection.mutable
@@ -20,35 +21,50 @@ object Test2 {
 
     val spark = SparkSession.builder().master("local[1]").getOrCreate()
     import spark.implicits._
-    val wordCounts = spark.readStream.text("D:\\data")
-      .as[String]
-      .map(f => {
-        val id = f.split(",")(0)
-        val age = f.split(",")(1)
-        val rondNum = Random.nextInt(3)
-        (id, age, rondNum)
-      }).toDF("id", "age", "par")
-      .groupByKey(f => f.getAs(2).toString).count()
-     /* .flatMapGroups((k, itr) => {
-        val arr = new ListBuffer[(String, String)]()
-        while (itr.hasNext) {
-          val row = itr.next()
-          val id = row.getAs[String](0)
-          val age = row.getAs[String](1)
-          arr.append((id, age))
-        }
-        arr.iterator
-      }).toDF("id","age")*/
+    val sc = spark.sparkContext
 
-    val query = wordCounts.writeStream
-      .format("console")
-      //      .foreach(new TestForeachWriter())
-      .outputMode("complete") //complete  append
-      //      .trigger(ProcessingTime("10 seconds"))
-      .start()
+    val ListAll = Seq(
+      ("a", ("a1", 3.0)),
+      ("a", ("b1", 1.0)),
+      ("a", ("c1", 5.0)),
+      ("b", ("f1", 3.0)),
+      ("c", ("f1", 3.0)),
+      ("d", ("f1", 1.0)),
+      ("e", ("e1", 5.0)),
+      ("f", ("e1", 4.0)),
+      ("f", ("a1", 3.0)),
+      ("c", ("e1", 2.0)),
+      ("d", ("e1", 1.0)),
+      ("e", ("b1", 1.0)),
+      ("e", ("a1", 3.0)),
+      ("a", ("f1", 4.0)),
+      ("a", ("e1", 5.0))
+    )
 
-    query.awaitTermination()
+    val rdd = spark.createDataset(ListAll).rdd.repartition(3)
 
+    val urdd = spark.createDataset(ListAll).rdd.repartition(3)
+      .map(_._1)
+      .distinct().zipWithIndex()
+      .cache()
+    urdd.foreach(println(_))
+    println("++++++++++++++++++++++++++++++")
+
+    val irdd = spark.createDataset(ListAll).rdd.repartition(3)
+      .map(_._2._1)
+      .distinct().zipWithIndex()
+      .cache()
+    irdd.foreach(println(_))
+    println("++++++++++++++++++++++++++++++")
+
+
+    val FJ = rdd.join(urdd).cache()
+    FJ.foreach(println(_))
+    println("============================")
+    val SJ = FJ.map(x => (x._2._1._1, (x._2._2, x._2._1._2))).join(irdd).cache()
+    SJ.foreach(println(_))
+
+    spark.close()
 
   }
 }

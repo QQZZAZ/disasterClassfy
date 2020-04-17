@@ -15,7 +15,9 @@ import org.apache.spark.sql.SparkSession
   * 百万级物品的协同过滤推荐系统
   */
 object ModelBasedCF {
+
   case class Rating(userId: Int, movieId: Int, rating: Double)
+
   /** 基于dt时间获取原始数据源
     *
     * @param spark SparkContext
@@ -102,12 +104,12 @@ object ModelBasedCF {
   def main(args: Array[String]) {
     //屏蔽日志
     Logger.getLogger("org.apache.spark").setLevel(Level.WARN)
-    Logger.getLogger("org.eclipse.jetty.server").setLevel(Level.OFF)
 
     val spark = SparkSession
       .builder
       .appName("ModelBased CF")
-      .enableHiveSupport()
+      .master("local[*]")
+      //      .enableHiveSupport()
       .getOrCreate()
 
     val trainHql = args(0)
@@ -129,8 +131,10 @@ object ModelBasedCF {
     import spark.sqlContext.implicits._
     val trainRatings = trainRdd
       .join(userIndex, 500)
+      //第一次join之后数据结构：用户ID，（(物品ID，评分)，用户索引）
       .map(x => (x._2._1._1, (x._2._2, x._2._1._2)))
       .join(itemIndex, 500)
+      //第二次join之后数据结构：物品ID,（(用户索引，评分)，物品索引）
       .map(x => Rating(x._2._1._1.toInt, x._2._2.toInt, x._2._1._2.toDouble)).toDF()
 
 
@@ -139,10 +143,13 @@ object ModelBasedCF {
     val als = new ALS()
       .setMaxIter(10)
       .setRank(rank)
-      .setNumBlocks(100)
+      .setNumBlocks(100) //分块数：分块是为了并行计算，默认为10。
+      .setRegParam(0.1)  //正则化数据
       .setUserCol("userId")
       .setItemCol("movieId")
       .setRatingCol("rating")
+      //如果score是隐式的维度，例如浏览和收藏 而评分则属于显示的维度如果计算隐式则设置为true
+      //如果计算的是显示维度则用默认值即可
       .setImplicitPrefs(true)
 
     val model = als.fit(trainRatings)
@@ -153,7 +160,6 @@ object ModelBasedCF {
         (item, vec)
       }
     ).sortByKey().collect()
-
 
 
     val numItems = itemIndex.count().toInt
