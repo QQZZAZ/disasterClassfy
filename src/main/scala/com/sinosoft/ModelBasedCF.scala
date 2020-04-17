@@ -12,7 +12,7 @@ import org.apache.spark.sql.SparkSession
 
 
 /**
-  * 百万计数据的推荐系统
+  * 百万级物品的协同过滤推荐系统
   */
 object ModelBasedCF {
   case class Rating(userId: Int, movieId: Int, rating: Double)
