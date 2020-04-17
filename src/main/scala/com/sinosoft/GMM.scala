@@ -11,7 +11,9 @@ import org.apache.log4j.{Level, Logger}
 import org.apache.spark.ml.feature._
 import org.apache.spark.ml.clustering.{GaussianMixture, GaussianMixtureModel, KMeans}
 import org.apache.spark.ml.linalg.{SparseVector, Vector, Vectors}
+import org.apache.spark.ml.recommendation.ALS
 import org.apache.spark.sql.types.{StringType, StructField, StructType}
+import com.github.fommil.netlib.BLAS.{getInstance => blas}
 
 import scala.collection.mutable
 
