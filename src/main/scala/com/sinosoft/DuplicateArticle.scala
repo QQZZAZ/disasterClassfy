@@ -139,7 +139,7 @@ object DuplicateArticle {
 
     println("result.rdd:" + result.rdd.count())
     /*import com.redislabs.provider.redis._
-    sc.toRedisLIST(
+    RedisLIST(
       result.rdd.map(f => {
         val rowkey = f.getAs[String](0)
         //        rowkey + "|||||o_status"

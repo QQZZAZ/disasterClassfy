@@ -2,10 +2,7 @@ package com.sinosoft.algorithm
 
 import com.github.fommil.netlib.BLAS.{getInstance => blas}
 import java.io.Serializable
-import java.util.{PriorityQueue => JPriorityQueue}
-import scala.collection.JavaConverters._
 import scala.collection.Map
-import scala.collection.generic.Growable
 class BlasSim(val numItems: Int, val vectorSize: Int, val itemVectors: Array[Float], val itemIndex: Map[java.lang.String, Int])extends Serializable{
 
   val itemList = {
@@ -23,7 +20,7 @@ class BlasSim(val numItems: Int, val vectorSize: Int, val itemVectors: Array[Flo
     }
     wordVecNorms
   }
-
+  //获取余弦距离
   def getCosinSimilarity(vector:Vector[Float], num: Int, wordOpt: Option[String]): Array[(String, Double)] = {
     require(num > 0, "Number of similar words should > 0")
     val fVector = vector.toArray.map(_.toFloat)
@@ -35,6 +32,14 @@ class BlasSim(val numItems: Int, val vectorSize: Int, val itemVectors: Array[Flo
     if (vecNorm != 0.0f) {
       blas.sscal(vectorSize, 1 / vecNorm, fVector, 0, 1)
     }
+
+    /**
+      * Level 2 和 Level 3函数涉及矩阵运算，接口函数名称由前缀 + 矩阵类型 + 操作简称组成。
+      * 例如: SGEMV
+      * S     -- 标明矩阵或向量中元素数据类型的前缀；
+      * GE   -- 矩阵类型
+      * MV  -- 向量或矩阵运算简称
+      */
     blas.sgemv("T", vectorSize, numItems, alpha, itemVectors, vectorSize, fVector, 1, beta, cosineVec, 1)
     val cosVec = cosineVec.map(_.toDouble)
     var ind = 0
@@ -60,5 +65,6 @@ class BlasSim(val numItems: Int, val vectorSize: Int, val itemVectors: Array[Flo
     }
     filtered.take(num).toArray
   }
+
 }
 

@@ -107,6 +107,8 @@ object ModelBasedCF {
 
     val spark = SparkSession
       .builder
+      .config("spark.default.parallelism", 8)
+      .config("spark.sql.shuffle.partitions", 8)
       .appName("ModelBased CF")
       .master("local[*]")
       //      .enableHiveSupport()
@@ -115,8 +117,8 @@ object ModelBasedCF {
     val trainHql = args(0)
     val testHql = args(1)
 
-    val trainDataFrame = getResource(spark, trainHql).repartition(100).cache()
-    val testDataRrame = getResource(spark, testHql).repartition(100)
+    val trainDataFrame = getResource(spark, trainHql).repartition(8).cache()
+    val testDataRrame = getResource(spark, testHql).repartition(8)
 
     val trainRdd = trainDataFrame.rdd.map(row => {
       val uid = row.getString(0)
@@ -130,20 +132,31 @@ object ModelBasedCF {
 
     import spark.sqlContext.implicits._
     val trainRatings = trainRdd
-      .join(userIndex, 500)
+      .join(userIndex, 8)
       //第一次join之后数据结构：用户ID，（(物品ID，评分)，用户索引）
       .map(x => (x._2._1._1, (x._2._2, x._2._1._2)))
-      .join(itemIndex, 500)
+      .join(itemIndex, 8)
       //第二次join之后数据结构：物品ID,（(用户索引，评分)，物品索引）
       .map(x => Rating(x._2._1._1.toInt, x._2._2.toInt, x._2._1._2.toDouble)).toDF()
+    //最终数据结果:用户索引，物品索引，评分
 
 
     val rank = 200
 
+    /**
+      * numBlocks是为了并行化计算而将用户和项目划分到的块的数量（默认为10）。
+      * rank是模型中潜在因素的数量（默认为10）。
+      * maxIter是要运行的最大迭代次数（默认为10）。
+      * regParam指定ALS中的正则化参数（默认为1.0）。
+      * implicitPrefs指定是使用显式反馈 ALS变体还是使用 隐式反馈数据（默认为false使用显式反馈的手段）。
+      * alpha是一个适用于ALS的隐式反馈变量的参数，该变量管理偏好观察值的 基线置信度（默认值为1.0）。
+      * nonnegative指定是否对最小二乘使用非负约束（默认为false）。
+      * 注意： ALS的基于DataFrame的API目前仅支持用户和项目ID的整数。用户和项目ID列支持其他数字类型，但ID必须在整数值范围内。
+      */
     val als = new ALS()
       .setMaxIter(10)
-      .setRank(rank)
-      .setNumBlocks(100) //分块数：分块是为了并行计算，默认为10。
+      .setRank(rank) //rank是模型中潜在因素的数量（默认为10）
+      .setNumBlocks(8) //分块数：分块是为了并行计算，默认为10。
       .setRegParam(0.1)  //正则化数据
       .setUserCol("userId")
       .setItemCol("movieId")
@@ -151,6 +164,7 @@ object ModelBasedCF {
       //如果score是隐式的维度，例如浏览和收藏 而评分则属于显示的维度如果计算隐式则设置为true
       //如果计算的是显示维度则用默认值即可
       .setImplicitPrefs(true)
+      .setAlpha(1.0)
 
     val model = als.fit(trainRatings)
     val itemFeature = model.itemFactors.rdd.map(
@@ -161,15 +175,18 @@ object ModelBasedCF {
       }
     ).sortByKey().collect()
 
-
+    //物品的数量
     val numItems = itemIndex.count().toInt
+    //物品的特征向量
     val itemVectors = itemFeature.flatMap(x => x._2)
+    //物品id，物品索引
     val itemIndex_tmp = itemIndex.collectAsMap()
 
     val blasSim = new BlasSim(numItems, rank, itemVectors, itemIndex_tmp)
-    val itemString = itemIndex.map(x => (x._2, x._1)).repartition(100)
+    val itemString = itemIndex.map(x => (x._2, x._1)).repartition(8)
 
     val item_sim_rdd = itemString.map(x => {
+      //物品id，
       (x._2, blasSim.getCosinSimilarity((itemFeature(x._1)._2.toVector), 50, None).toList)
     })
 

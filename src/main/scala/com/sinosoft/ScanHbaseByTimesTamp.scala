@@ -17,7 +17,7 @@ import org.json.JSONObject
 /**
   * 根据Hbase入库时间戳获取数据
   */
-object ScanHbaseTest {
+object ScanHbaseByTimesTamp {
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.ERROR)
     val spark = SparkSession.builder()
