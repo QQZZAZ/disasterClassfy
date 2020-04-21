@@ -20,7 +20,7 @@ class BlasSim(val numItems: Int, val vectorSize: Int, val itemVectors: Array[Flo
     }
     wordVecNorms
   }
-  //获取余弦相似性
+  //获取余弦距离
   def getCosinSimilarity(vector:Vector[Float], num: Int, wordOpt: Option[String]): Array[(String, Double)] = {
     require(num > 0, "Number of similar words should > 0")
     val fVector = vector.toArray.map(_.toFloat)
