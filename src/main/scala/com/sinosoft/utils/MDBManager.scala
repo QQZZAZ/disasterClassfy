@@ -1,6 +1,10 @@
 package com.sinosoft.utils
 
 import java.sql.Connection
+import java.sql.Connection
+
+import com.mchange.v2.c3p0.ComboPooledDataSource
+import com.sinosoft.config.C3p0PropertiesUtils
 
 /**
   * 连接池方式创建mysql连接
