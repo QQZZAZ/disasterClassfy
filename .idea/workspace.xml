@@ -1,0 +1,1780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d82059c4-2660-422f-8fac-ccdf792e9d45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/KongGangCarCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes.400917734.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/HanLP.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-TianJin.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-production.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-specialNetwork.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$5$$anonfun$apply$1$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$5$$anonfun$apply$1$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$5$$anonfun$apply$1$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$5$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$typecreator4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$typecreator6$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$typecreator8$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$Event$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$12$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$6$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis2$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis2$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis2$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$typecreator11$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$typecreator15$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$typecreator7$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$anonfun$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$anonfun$3$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$typecreator7$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$typecreator9$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$Event$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$State$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$StateUpdate$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$StateUpdate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$4$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$4$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$9$$anonfun$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$9$$anonfun$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$typecreator11$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$typecreator12$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$typecreator15$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$typecreator5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$typecreator9$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$model_instance$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$model_instance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$calcTopLevelHierarcy$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$calcTopLevelHierarcy$1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$calcTopLevelHierarcy$1$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$typecreator7$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GragphxPregleTest$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GragphxPregleTest$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GragphxPregleTest$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GragphxPregleTest$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GragphxPregleTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/GragphxPregleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HFilePartitioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HbaseCount$$anonfun$main$1$$anonfun$apply$mcV$sp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HbaseCount$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HbaseCount$$anonfun$main$2$$anonfun$apply$mcV$sp$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HbaseCount$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HbaseCount$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HbaseCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HdfsToSql$$anonfun$tieba$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HdfsToSql$$anonfun$weibo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HdfsToSql$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HdfsToSql.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$$anonfun$main$2$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$$anonfun$main$2$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$ResultKV$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$ResultKV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HiveUDTFTest$$anonfun$process$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HiveUDTFTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Hive_HbaseTest$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Hive_HbaseTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Hive_HbaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HotWordCount$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/HotWordCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaConsumer$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaConsumer$$anonfun$2$$anonfun$apply$1$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaConsumer$$anonfun$2$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaConsumer$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaConsumer$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaConsumer$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaProducer$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$5$$anonfun$apply$1$$anonfun$apply$mcV$sp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$5$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$service$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$service$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$service$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$service$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$1$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$1$$anonfun$apply$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$3$$anonfun$apply$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$3$$anonfun$apply$5$$anonfun$apply$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$3$$anonfun$apply$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadData$$anonfun$main$1$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadData$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadData$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadData$$anonfun$main$3$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadData$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadData$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadUserName2Hbase$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadUserName2Hbase$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadUserName2Hbase$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadUserName2Hbase$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadUserName2Hbase$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadUserName2Hbase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/MLFKafkaTest$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/MLFKafkaTest$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/MLFKafkaTest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/MLFKafkaTest$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/MLFKafkaTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/MLFKafkaTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/MergeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$17.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$18.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$19.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$20.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$3$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$3$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$6$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$8$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$Rating$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$Rating.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$4$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$anonfun$3$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$anonfun$isExist$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$anonfun$put$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$typecreator4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ReadHDFSXJ$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ReadHDFSXJ$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ReadHDFSXJ$$anonfun$analysize$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ReadHDFSXJ$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ReadHDFSXJ$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ReadHDFSXJ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanHbaseTest$$anonfun$1$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanHbaseTest$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanHbaseTest$$anonfun$3$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanHbaseTest$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanHbaseTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanHbaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanUsers$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanUsers$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanUsers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$12$$anonfun$apply$4$$anonfun$apply$mcV$sp$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$12$$anonfun$apply$4$$anonfun$apply$mcV$sp$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$12$$anonfun$apply$4$$anonfun$apply$mcV$sp$8$$anonfun$apply$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$12$$anonfun$apply$4$$anonfun$apply$mcV$sp$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$12$$anonfun$apply$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$2$$anonfun$apply$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$2$$anonfun$apply$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$2$$anonfun$apply$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$2$$anonfun$apply$7$$anonfun$apply$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$2$$anonfun$apply$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$2$$anonfun$apply$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$3$$anonfun$apply$1$$anonfun$apply$mcV$sp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$3$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$6$$anonfun$apply$2$$anonfun$apply$mcV$sp$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$6$$anonfun$apply$2$$anonfun$apply$mcV$sp$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$6$$anonfun$apply$2$$anonfun$apply$mcV$sp$4$$anonfun$apply$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$6$$anonfun$apply$2$$anonfun$apply$mcV$sp$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$6$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$9$$anonfun$apply$3$$anonfun$apply$mcV$sp$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$9$$anonfun$apply$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$typecreator11$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$typecreator13$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$typecreator15$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$typecreator4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$typecreator5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$typecreator7$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$anonfun$3$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$typecreator7$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$typecreator9$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$Event$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$SessionInfo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$SessionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$SessionUpdate$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$SessionUpdate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructuredStreamingWindowTest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructuredStreamingWindowTest$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructuredStreamingWindowTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/StructuredStreamingWindowTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$2$$anonfun$apply$1$$anonfun$apply$mcV$sp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$2$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$typecreator5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$typecreator7$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$typecreator5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$typecreator9$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ThreadDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ThreadTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ThreadTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$$anonfun$runJob$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$$anonfun$validate$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$$anonfun$validate$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$$anonfun$validate$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$getCosinSimilarity$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$getCosinSimilarity$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BoundedPriorityQueue$$anonfun$$plus$plus$eq$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BoundedPriorityQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/Person$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$$anonfun$byId$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$$anonfun$findUltimateParent$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$$anonfun$findUltimateParent$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/SparkSQLRecurse$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/SparkSQLRecurse$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/SparkSQLRecurse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model$$anonfun$idfCalculate$1$$anonfun$apply$1$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model$$anonfun$idfCalculate$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model$$anonfun$idfCalculate$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model$$anonfun$tfCalculate$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/WithAncestor$$anonfun$hasGrandparent$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/WithAncestor$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/WithAncestor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/Hbase/HbaseAPI$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/Hbase/HbaseAPI$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/Hbase/HbaseAPI$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/Hbase/HbaseAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/Hbase/OperationHbase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$rank$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$rank$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$4$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$rank$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$rank$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcVI$sp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$rank$1$$anonfun$apply$mcV$sp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$rank$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$rank$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$sortByValue$1$$anonfun$apply$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$sortByValue$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankWordSet$$anonfun$transform$1$$anonfun$apply$1$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankWordSet$$anonfun$transform$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankWordSet$$anonfun$transform$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankWordSet$$anonfun$transform$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankWordSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/mysql/MysqlAPI$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/mysql/MysqlAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/mysql/MysqlTest$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/mysql/MysqlTest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/mysql/MysqlTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/mysql/MysqlTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/redis/RedisAPI$$anonfun$setData2RedisList$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/redis/RedisAPI$$anonfun$setData2RedisList$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/redis/RedisAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/ConnectHbase$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/ConnectHbase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/MD5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/ObjectSchema$$anonfun$common_schemas$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/ObjectSchema$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/ObjectSchema.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs$$anonfun$register$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs$$typecreator1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/BitMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/HashAl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/JoinThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/KeyQualifierComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/MainClass2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/TrieTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/VolatileTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/canal/CanalTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/save.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/listener/MyListener$MyListener$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/listener/MyListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/myUdaf/DateRange$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/myUdaf/DateRange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/myUdaf/MyUdaf$$anonfun$update$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/myUdaf/MyUdaf$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/myUdaf/MyUdaf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/myUdaf/YearOnYearCompare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$setHistoryData2Redis$1$$anonfun$apply$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$setHistoryData2Redis$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$updateHistoryData$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$updateHistoryData$1$$anonfun$apply$2$$anonfun$apply$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$updateHistoryData$1$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$updateHistoryData$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$updateHistoryData$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/RDD2DataFrameReflection$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/RDD2DataFrameReflection$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/RDD2DataFrameReflection$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/RDD2DataFrameReflection$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/RDD2DataFrameReflection$Student$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/RDD2DataFrameReflection$Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/RDD2DataFrameReflection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/service/PopRedis$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/service/PopRedis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/DriverHeapMysqlSink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/DropDunplicatesHbaseSink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/ExecutorHeapMysqlSink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HbaseSink$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HbaseSink$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HbaseSink$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HbaseSink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HotWords2MysqlSink$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HotWords2MysqlSink$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HotWords2MysqlSink$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HotWords2MysqlSink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/EnumUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/ExcelReaderUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/GetPlaceWeb.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/MyPartitioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/MyUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/MyUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/SparkPartitioner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/TransformData$$anonfun$registMysql$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/TransformData$$anonfun$registMysql$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/TransformData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/core-site.xml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/hdfs-site.xml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/hive-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/stopWords.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sinosoft/HiveTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sinosoft/HiveTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sinosoft/JavaTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sinosoft/SetTest$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sinosoft/SetTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sinosoft/SetTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sinosoft/SparkSqlUV$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sinosoft/SparkSqlUV$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sinosoft/SparkSqlUV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sinosoft/StructuredStreamingBroadCast$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sinosoft/StructuredStreamingBroadCast$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sinosoft/StructuredStreamingBroadCast$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sinosoft/StructuredStreamingBroadCast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/sinosoft/ZZTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/disasterClassfy$ExcelReaderUtil.ic" NAME="ExcelReaderUtil Coverage Results" MODIFIED="1586226882370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sinosoft.utils.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1304726611">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="14" />
+          <entry key="iml" value="5" />
+          <entry key="java" value="33" />
+          <entry key="pom" value="1" />
+          <entry key="scala" value="106" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="14" />
+          <entry key="IDEA_MODULE" value="5" />
+          <entry key="JAVA" value="33" />
+          <entry key="Scala" value="106" />
+          <entry key="XML" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="365" />
+          <entry key="scala" value="4011" />
+          <entry key="txt" value="12" />
+          <entry key="xml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="365" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Scala" value="4011" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/AggregateByKeyTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/LanguegeAnalysis.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="172" column="29" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/StructruedStreamingCountPV.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1406">
+              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/StructuredStreamingWindowTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/HotWordCount.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/GetPlaceWeb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/EnumUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/TemporaryDuty.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/SecondTemporaryDuty.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/LoadData.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>disasterClassify</find>
+      <find>json</find>
+      <find>津RYL577</find>
+      <find>poi-excelant</find>
+      <find>aggregateByKey</find>
+      <find>1575156758000</find>
+      <find>车牌</find>
+      <find>警</find>
+      <find>case</find>
+      <find>List(</find>
+      <find>lineage</find>
+      <find>LineageInfo</find>
+      <find>hive</find>
+      <find>table</find>
+      <find>.config(</find>
+      <find>netlib</find>
+      <find>BlasSim</find>
+      <find>JedisC</find>
+      <find>.config</find>
+      <find>sc.to</find>
+      <find>.option(</find>
+      <find>Jedis</find>
+      <find>poll</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dependency-reduced-pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/AggregateByKeyTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/ExcelReaderUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/KongGangCarCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/hbase/MD5Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/HashAl.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/StructruedStreamingCountPV.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/sink/BatchMysqlSink.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/FlatMapStateTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/BoundedPriorityQueue.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/SparkSQLRecurse.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/GMM.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/ModelBasedCF.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/ScanHbaseByTimesTamp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/BlasSim.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\maven-repository" />
+        <option name="mavenHome" value="D:/maven" />
+        <option name="userSettingsFile" value="D:\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="38" />
+    <option name="y" value="69" />
+    <option name="width" value="1924" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Dependency issuesJava</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Hibernate</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>JPA</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavadocJava</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>WebSocket</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="LineageL&#9;PSI&#9;JAVA://org.apache.hadoop.hive.ql.hooks.LineageLogger&#10;Lineage&#9;FILE&#9;jar://D:/maven/maven-repository/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar!/org/apache/hadoop/hive/ql/hooks/LineageInfo.class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587535249300" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test2">
+    <configuration name="ExcelReaderUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.utils.ExcelReaderUtil" />
+      <module name="disasterClassify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinosoft.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlatMapStateTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.FlatMapStateTest" />
+      <module name="disasterClassify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinosoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashAl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.javas.HashAl" />
+      <module name="disasterClassify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinosoft.javas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KongGangCarCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.KongGangCarCount" />
+      <module name="disasterClassify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinosoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.Test2" />
+      <module name="disasterClassify" />
+      <option name="VM_PARAMETERS" value="-Dcom.github.fommil.netlib.BLAS=com.github.fommil.netlib.NativeRefBLAS -Dcom.github.fommil.netlib.LAPACK=com.github.fommil.netlib.NativeRefLAPACK -Dcom.github.fommil.netlib.ARPACK=com.github.fommil.netlib.NativeRefARPACK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinosoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="disasterClassify" />
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.KongGangCarCount" />
+      <item itemvalue="Application.ExcelReaderUtil" />
+      <item itemvalue="Application.Test2" />
+      <item itemvalue="Application.HashAl" />
+      <item itemvalue="Application.FlatMapStateTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.FlatMapStateTest" />
+        <item itemvalue="Application.HashAl" />
+        <item itemvalue="Application.KongGangCarCount" />
+        <item itemvalue="Application.ExcelReaderUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d82059c4-2660-422f-8fac-ccdf792e9d45" name="Default Changelist" comment="" />
+      <created>1585726303147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585726303147</updated>
+      <workItem from="1585726305944" duration="3865000" />
+      <workItem from="1585730272879" duration="124000" />
+      <workItem from="1585730402819" duration="1220000" />
+      <workItem from="1586221551309" duration="9406000" />
+      <workItem from="1586231012935" duration="230000" />
+      <workItem from="1586231271064" duration="14113000" />
+      <workItem from="1586251139083" duration="996000" />
+      <workItem from="1586306061730" duration="395000" />
+      <workItem from="1586307871479" duration="619000" />
+      <workItem from="1586392274450" duration="6420000" />
+      <workItem from="1586488807503" duration="9314000" />
+      <workItem from="1586739020234" duration="6628000" />
+      <workItem from="1586764705091" duration="45000" />
+      <workItem from="1586857979800" duration="606000" />
+      <workItem from="1587020313290" duration="836000" />
+      <workItem from="1587030772530" duration="608000" />
+      <workItem from="1587083970863" duration="14454000" />
+      <workItem from="1587342776832" duration="18075000" />
+      <workItem from="1587373003129" duration="3225000" />
+      <workItem from="1587430204036" duration="782000" />
+      <workItem from="1587434231611" duration="636000" />
+      <workItem from="1587459403471" duration="2245000" />
+      <workItem from="1587526575062" duration="687000" />
+    </task>
+    <task id="LOCAL-00001" summary="11111">
+      <created>1585730734769</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585730734769</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first">
+      <created>1586417507205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586417507205</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first">
+      <created>1586497926886</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586497926886</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first">
+      <created>1587092206293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587092206293</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first">
+      <created>1587095348718</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587095348718</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first">
+      <created>1587102540675</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587102540675</updated>
+    </task>
+    <task id="LOCAL-00007" summary="first">
+      <created>1587116048356</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587116048356</updated>
+    </task>
+    <task id="LOCAL-00008" summary="first">
+      <created>1587430233228</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587430233228</updated>
+    </task>
+    <task id="LOCAL-00009" summary="first">
+      <created>1587430385669</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587430385669</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2">
+      <created>1587430713028</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587430713028</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="95529000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.23101953" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34815618" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5542299" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.17321016" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.53362256" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="11" side_tool="true" weight="0.19616205" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20255864" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.23101953" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34815618" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38828632" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.17321016" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.53362256" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="11" side_tool="true" weight="0.19616205" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="11111" />
+    <MESSAGE value="first" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/BlasSim.scala</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/BlasSim.scala</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/IndexedSeqOptimized.scala</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/scheduler/DisatserService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="108" column="3" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="108" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/scheduler/RDD2DataFrameReflection.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/NEWTempDuty.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-800">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/DuplicateArticle.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/TF_IDF_Model.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/LoadUserName2Hbase.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar!/com/github/fommil/netlib/BLAS.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1050">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar!/org/netlib/blas/Daxpy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar!/com/github/fommil/netlib/F2jBLAS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.jar!/com/github/fommil/netlib/NativeRefBLAS.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1-sources.jar!/com/github/fommil/netlib/NativeRefBLAS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="54" column="11" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/SparkSQLRecurse.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="37" column="63" lean-forward="true" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0.jar!/org/apache/spark/ml/recommendation/ALS.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/param/shared/sharedParams.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0.jar!/org/apache/spark/ml/recommendation/ALSModel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="266" selection-start-line="2" selection-start-column="266" selection-end-line="2" selection-end-column="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/Array.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="502" column="20" selection-start-line="502" selection-start-column="20" selection-end-line="502" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/Predef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="221" column="20" selection-start-line="221" selection-start-column="20" selection-end-line="221" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar!/scala/Tuple2.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="83" selection-start-line="2" selection-start-column="83" selection-end-line="2" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar!/com/github/fommil/netlib/BLAS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4970">
+          <caret line="7371" column="23" selection-start-line="7371" selection-start-column="23" selection-end-line="7371" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0.jar!/org/apache/spark/util/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2546">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/GMM.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3175">
+          <caret line="127" column="6" selection-start-line="127" selection-start-column="6" selection-end-line="127" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2725">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+          <folding>
+            <element signature="e#22#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/util/Utils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35600">
+          <caret line="1481" selection-start-line="1481" selection-end-line="1481" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3475">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/BoundedPriorityQueue.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/recommendation/ALS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="136" column="16" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/IndexedSeqOptimized.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/Hive_HbaseTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="481" column="60" lean-forward="true" selection-start-line="481" selection-start-column="60" selection-end-line="481" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/FlatMapStateTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/CreateTableWeek.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/ReadHDFSXJ.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/ScanHbaseByTimesTamp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/ScanUsers.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/KongGangCarCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/BlasSim.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="e#32#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/ModelBasedCF.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4525">
+          <caret line="189" column="31" selection-start-line="189" selection-start-column="31" selection-end-line="189" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/PostsNumberCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/MyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/MyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/ExcelReaderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4200">
+          <caret line="179" column="14" selection-start-line="179" selection-start-column="14" selection-end-line="179" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/GetPlaceWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/EnumUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/TemporaryDuty.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/SecondTemporaryDuty.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/LoadData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/AggregateByKeyTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/LanguegeAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="172" column="29" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/HotWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/StructuredStreamingWindowTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/StructruedStreamingCountPV.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1406">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>disasterClassify</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
