@@ -3,25 +3,30 @@ package com.sinosoft.algorithm
 import com.github.fommil.netlib.BLAS.{getInstance => blas}
 import java.io.Serializable
 import scala.collection.Map
-class BlasSim(val numItems: Int, val vectorSize: Int, val itemVectors: Array[Float], val itemIndex: Map[java.lang.String, Int])extends Serializable{
+
+class BlasSim(val numItems: Int, val vectorSize: Int, val itemVectors: Array[Float], val itemIndex: Map[java.lang.String, Int]) extends Serializable {
 
   val itemList = {
     val (wl, _) = itemIndex.toSeq.sortBy(_._2).unzip
     wl.toArray
   }
 
+  //向量归一化
   val wordVecNorms: Array[Double] = {
     val wordVecNorms = new Array[Double](numItems)
     var i = 0
     while (i < numItems) {
       val vec = itemVectors.slice(i * vectorSize, i * vectorSize + vectorSize)
+      //blas.snrm2 专门处理欧几里得距离的归一化
+      // 处理
       wordVecNorms(i) = blas.snrm2(vectorSize, vec, 1)
       i += 1
     }
     wordVecNorms
   }
+
   //获取余弦距离
-  def getCosinSimilarity(vector:Vector[Float], num: Int, wordOpt: Option[String]): Array[(String, Double)] = {
+  def getCosinSimilarity(vector: Vector[Float], num: Int, wordOpt: Option[String]): Array[(String, Double)] = {
     require(num > 0, "Number of similar words should > 0")
     val fVector = vector.toArray.map(_.toFloat)
     val cosineVec = Array.fill[Float](numItems)(0)

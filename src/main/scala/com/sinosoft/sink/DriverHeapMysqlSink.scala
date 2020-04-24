@@ -6,6 +6,7 @@ import org.apache.spark.sql.{ForeachWriter, Row}
 
 /**
   * Created by guo on 2019/7/12.
+  *
   */
 class DriverHeapMysqlSink extends ForeachWriter[Row]() {
   var conn: Connection = _
