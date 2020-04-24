@@ -500,7 +500,7 @@
     <property name="SearchEverywhereHistoryKey" value="LineageL&#9;PSI&#9;JAVA://org.apache.hadoop.hive.ql.hooks.LineageLogger&#10;Lineage&#9;FILE&#9;jar://D:/maven/maven-repository/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar!/org/apache/hadoop/hive/ql/hooks/LineageInfo.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587709195344" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587709413016" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tfserver-spark-scala" />
     <property name="project.structure.last.edited" value="SDKs" />

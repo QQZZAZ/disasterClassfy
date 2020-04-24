@@ -1,12 +1,34 @@
 package com.sinosoft;
 
 import java.util.concurrent.*;
-import org.openjdk.jol.info.ClassLayout;
 
 public class ThreadTest {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        char o ='2';
-        System.out.println("maureen test:" + ClassLayout.parseInstance(o).toPrintable());
+        /*ThreadDemo td = new ThreadDemo();
+
+        FutureTask<String> result = new FutureTask<String>(td);
+        new Thread(result).start();
+
+        String result2 = result.get();
+        System.out.println(result2);*/
+
+        ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
+        for (int i = 0; i < 10; i++) {
+            final int index = i;
+            try {
+                Thread.sleep(index * 61000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            cachedThreadPool.execute(new Runnable() {
+                @Override
+                public void run() {
+                    System.out.println(Thread.currentThread().getName()+"");
+                }
+            });
+        }
+        cachedThreadPool.shutdown();
+
     }
 
 
