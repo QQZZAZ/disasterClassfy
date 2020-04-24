@@ -352,7 +352,6 @@
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-suggest:7.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.elasticsearch:securesm:1.2" level="project" />
     <orderEntry type="library" name="Maven: org.elasticsearch:elasticsearch-cli:6.1.1" level="project" />
-    <orderEntry type="library" name="Maven: net.sf.jopt-simple:jopt-simple:5.0.2" level="project" />
     <orderEntry type="library" name="Maven: com.carrotsearch:hppc:0.7.1" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.17" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.10" level="project" />
@@ -434,5 +433,8 @@
     <orderEntry type="library" name="Maven: org.apache.rocketmq:rocketmq-srvutil:4.5.2" level="project" />
     <orderEntry type="library" name="Maven: com.mchange:c3p0:0.9.5" level="project" />
     <orderEntry type="library" name="Maven: com.mchange:mchange-commons-java:0.2.9" level="project" />
+    <orderEntry type="library" name="Maven: org.openjdk.jol:jol-cli:0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.openjdk.jol:jol-core:0.8" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.jopt-simple:jopt-simple:4.6" level="project" />
   </component>
 </module>

@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d82059c4-2660-422f-8fac-ccdf792e9d45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/SingletonTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jol_jol_cli_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jol_jol_core_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/JavaClassJVM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/BlasSim.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/BlasSim.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanHbaseTest$$anonfun$1$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanHbaseTest$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanHbaseTest$$anonfun$3$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanHbaseTest$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanHbaseTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanHbaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/disasterClassify.iml" beforeDir="false" afterPath="$PROJECT_DIR$/disasterClassify.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sinosoft/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/ThreadTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,50 +51,41 @@
         <counts>
           <entry key="class" value="14" />
           <entry key="iml" value="5" />
-          <entry key="java" value="36" />
+          <entry key="java" value="38" />
           <entry key="pom" value="1" />
-          <entry key="scala" value="122" />
-          <entry key="xml" value="8" />
+          <entry key="scala" value="123" />
+          <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="14" />
           <entry key="IDEA_MODULE" value="5" />
-          <entry key="JAVA" value="36" />
-          <entry key="Scala" value="122" />
-          <entry key="XML" value="9" />
+          <entry key="JAVA" value="38" />
+          <entry key="Scala" value="123" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="365" />
-          <entry key="scala" value="4065" />
+          <entry key="java" value="399" />
+          <entry key="scala" value="4066" />
           <entry key="txt" value="12" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="365" />
+          <entry key="JAVA" value="399" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Scala" value="4065" />
-          <entry key="XML" value="8" />
+          <entry key="Scala" value="4066" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/ModelBasedCF.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4400">
-              <caret line="184" column="29" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/MDBManager.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,11 +101,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2375">
+            <state relative-caret-position="1119">
               <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
               <folding>
                 <element signature="e#22#61#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/ThreadTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/JavaClassJVM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/LoadData.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -140,11 +164,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/sink/DriverHeapMysqlSink.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="33" column="10" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="150">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="347" column="24" selection-start-line="347" selection-start-column="24" selection-end-line="347" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -222,11 +255,14 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/ModelBasedCF.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/ScanHbaseByTimesTamp.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/config/C3p0PropertiesUtils.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/MDBManager.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/SingletonTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/BlasSim.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/sink/DriverHeapMysqlSink.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/JavaClassJVM.java" />
       </list>
     </option>
   </component>
@@ -434,7 +470,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
+              <item name="javas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
               <item name="sink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -446,7 +500,7 @@
     <property name="SearchEverywhereHistoryKey" value="LineageL&#9;PSI&#9;JAVA://org.apache.hadoop.hive.ql.hooks.LineageLogger&#10;Lineage&#9;FILE&#9;jar://D:/maven/maven-repository/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar!/org/apache/hadoop/hive/ql/hooks/LineageInfo.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587633931734" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587709195344" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tfserver-spark-scala" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -473,27 +527,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Jobs">
+  <component name="RunManager" selected="Application.ThreadTest">
     <configuration name="FlatMapStateTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.sinosoft.FlatMapStateTest" />
       <module name="disasterClassify" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sinosoft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <shortenClasspath name="MANIFEST" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashAl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sinosoft.javas.HashAl" />
-      <module name="disasterClassify" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sinosoft.javas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -545,6 +585,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.ThreadTest" />
+      <module name="disasterClassify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinosoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <module name="disasterClassify" />
       <shortenClasspath name="MANIFEST" />
@@ -554,18 +608,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test2" />
-      <item itemvalue="Application.HashAl" />
       <item itemvalue="Application.FlatMapStateTest" />
       <item itemvalue="Application.Job" />
       <item itemvalue="Application.Jobs" />
+      <item itemvalue="Application.ThreadTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.Jobs" />
         <item itemvalue="Application.Job" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.FlatMapStateTest" />
-        <item itemvalue="Application.HashAl" />
       </list>
     </recent_temporary>
   </component>
@@ -605,7 +659,7 @@
       <workItem from="1587601889269" duration="14000" />
       <workItem from="1587612255066" duration="4865000" />
       <workItem from="1587689375080" duration="146000" />
-      <workItem from="1587689559290" duration="1100000" />
+      <workItem from="1587689559290" duration="2638000" />
     </task>
     <task id="LOCAL-00001" summary="11111">
       <created>1585730734769</created>
@@ -691,16 +745,24 @@
       <option name="project" value="LOCAL" />
       <updated>1587535560532</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2">
+      <created>1587695116818</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587695116818</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105758000" />
+    <option name="totallyTimeSpent" value="107296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23667377" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25479743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -709,7 +771,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.16160521" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24295011" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28850326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5542299" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -813,20 +875,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0.jar!/org/apache/spark/ml/recommendation/ALS.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/param/shared/sharedParams.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0.jar!/org/apache/spark/ml/recommendation/ALSModel.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1002,13 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/LoadData.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/AggregateByKeyTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1068,13 +1109,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8525">
-          <caret line="341" column="21" selection-start-line="341" selection-start-column="21" selection-end-line="341" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1144,16 +1178,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2375">
-          <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
-          <folding>
-            <element signature="e#22#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar!/com/github/fommil/netlib/BLAS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191150">
@@ -1180,8 +1204,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/sink/DriverHeapMysqlSink.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="150">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="347" column="24" selection-start-line="347" selection-start-column="24" selection-end-line="347" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/LoadData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1119">
+          <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+          <folding>
+            <element signature="e#22#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/JavaClassJVM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
