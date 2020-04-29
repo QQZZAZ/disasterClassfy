@@ -64,6 +64,7 @@ object TemporaryDuty {
     }
     ).rdd.reduceByKey(_ + _).cache()
 
+
     /*val df3 = spark.read.textFile("C:\\Users\\zdb\\Desktop\\s2")
     val df4 = df3.map(f => {
       val keyList = bro.value
