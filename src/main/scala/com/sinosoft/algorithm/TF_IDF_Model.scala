@@ -254,11 +254,12 @@ object TF_IDF_Model {
 
     val predictions = model.transform(testData)
     predictions.
-      select("predictedLabel", "label","prob").show(2000, false)
+      select("predictedLabel", "label", "prob").show(2000, false)
 
-    val evaluator = new MulticlassClassificationEvaluator().
-      setLabelCol("label").
-      setPredictionCol("prediction")
+    val evaluator = new MulticlassClassificationEvaluator()
+      .setLabelCol("label")
+      .setPredictionCol("prediction")
+      .setMetricName("accuracy")
     val accuracy = evaluator.evaluate(predictions)
     println(accuracy)
 
