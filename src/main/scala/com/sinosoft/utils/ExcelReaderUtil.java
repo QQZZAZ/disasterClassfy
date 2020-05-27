@@ -163,7 +163,7 @@ public class ExcelReaderUtil {
                         if (null != lists.get(m) && lists.get(m).size() > 0) {
                             List dataList = lists.get(m);
 //                            System.out.println(dataList.get(0).toString()+"|||"+dataList.get(5).toString());
-                            listMap.add(dataList.get(0).toString()+"|||"+dataList.get(5).toString());
+                            listMap.add(dataList.get(0).toString() + "|||" + dataList.get(5).toString());
                         }
                     }
                 }
@@ -187,12 +187,12 @@ public class ExcelReaderUtil {
 
         for (int i = 0; i < tempList.length; i++) {
             if (tempList[i].isFile()) {
-//              System.out.println("文     件：" + tempList[i]);
+//              System.out.println("文     件：" + tempList[i].getPath());
                 //fileNameList.add(tempList[i].toString());
-                fileNameList.add(tempList[i].getName());
+                fileNameList.add(tempList[i].getPath());
             }
             if (tempList[i].isDirectory()) {
-//              System.out.println("文件夹：" + tempList[i]);
+//                System.out.println("文件夹：" + tempList[i].getAbsolutePath());
                 getAllFileName(tempList[i].getAbsolutePath(), fileNameList);
             }
         }

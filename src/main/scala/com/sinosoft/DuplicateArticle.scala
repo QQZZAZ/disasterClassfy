@@ -92,7 +92,7 @@ object DuplicateArticle {
       put.addColumn(Bytes.toBytes("wa"), Bytes.toBytes("number_of_similar_articles"), Bytes.toBytes(number.toString))
       (new ImmutableBytesWritable, put)
     }).filter(!_._2.isEmpty)
-      .saveAsHadoopDataset(OUTConf)
+//      .AsHadoopDataset(OUTConf)
 
 
     //    tableMD5NUM.createOrReplaceTempView("tableMD5NUM")

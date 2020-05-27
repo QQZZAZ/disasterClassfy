@@ -35,6 +35,7 @@ public class Pic2Bin {
             ImageIO.write(bi, "jpg", baos);  //经测试转换的图片是格式这里就什么格式，否则会失真
             byte[] bytes = baos.toByteArray();
 
+            System.out.println(bytes.length);
             return encoder.encodeBuffer(bytes).trim();
         } catch (IOException e) {
             e.printStackTrace();

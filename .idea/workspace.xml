@@ -1,27 +1,618 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d82059c4-2660-422f-8fac-ccdf792e9d45" name="Default Changelist" comment="2">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/JavaObjectJVM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/canal/Pic2Bin.java" afterDir="false" />
+    <list default="true" id="d82059c4-2660-422f-8fac-ccdf792e9d45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_profesorfalken_WMI4Java_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_profesorfalken_jPowerShell_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_codecs_5_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_collections_eclipse_collections_9_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_collections_eclipse_collections_api_9_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jprocesses_jProcesses_1_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_driver_neo4j_java_driver_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_bolt_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_codegen_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_collections_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_command_line_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_common_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_concurrent_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_configuration_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_consistency_check_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_csv_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_compiler_2_3_2_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_compiler_3_1_3_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_expression_3_4_3_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_frontend_2_3_2_3_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_frontend_3_1_3_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_interpreted_runtime_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_ir_3_4_3_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_ir_3_5_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_logical_plans_3_4_3_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_logical_plans_3_5_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_planner_3_4_3_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_planner_3_5_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_planner_spi_3_4_3_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_planner_spi_3_5_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_runtime_util_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_cypher_util_3_4_3_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_dbms_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_diagnostics_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_fulltext_index_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_graph_algo_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_graph_matching_3_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_graphdb_api_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_import_tool_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_index_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_io_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_jmx_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_kernel_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_kernel_api_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_legacy_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_logging_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_lucene_index_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_lucene_upgrade_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_procedure_api_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_resource_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_spatial_index_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_ssl_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_udc_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_unsafe_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_neo4j_values_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_neo4j_openCypher_frontend_1_3_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opencypher_ast_9_0_9_0_20181030.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opencypher_expressions_9_0_9_0_20181030.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opencypher_front_end_9_0_9_0_20181030.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opencypher_parser_9_0_9_0_20181030.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opencypher_rewriting_9_0_9_0_20181030.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opencypher_util_9_0_9_0_20181030.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_util_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_parboiled_parboiled_core_1_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_parboiled_parboiled_scala_2_11_1_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_sbt_test_interface_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalacheck_scalacheck_2_11_1_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalatest_scalatest_2_11_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/CaseLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/Neo4jTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ansj_ansj_seg_5_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ansj_ansj_seg_5_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_nlpcn_nlp_lang_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_nlpcn_nlp_lang_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_parboiled_parboiled_core_1_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_parboiled_parboiled_scala_2_11_1_1_6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sinosoft/TemporaryDuty.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/TemporaryDuty.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sinosoft/hbase/SparkUDFs.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/hbase/SparkUDFs.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$main$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$typecreator5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$typecreator5$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$typecreator7$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$typecreator7$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ThreadDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/ThreadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs$$anonfun$register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs$$anonfun$register$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs$$typecreator1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs$$typecreator2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs$$typecreator2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disasterClassify.iml" beforeDir="false" afterPath="$PROJECT_DIR$/disasterClassify.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/HanLP.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HanLP.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sinosoft/DuplicateArticle.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/DuplicateArticle.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sinosoft/GMM.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/GMM.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sinosoft/HfileTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/HfileTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sinosoft/TpDutyTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/TpDutyTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/TF_IDF_Model.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/TF_IDF_Model.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/canal/Pic2Bin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/canal/Pic2Bin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/ExcelReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/ExcelReaderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HanLP.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HanLP.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$5$$anonfun$apply$1$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$5$$anonfun$apply$1$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$5$$anonfun$apply$1$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$5$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/AggregateByKeyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$typecreator4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$typecreator6$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$$typecreator8$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$Event$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek$Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/CreateTableWeek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$12$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$6$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis2$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$anonfun$anlysis2$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$typecreator11$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$typecreator15$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$$typecreator7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/DuplicateArticle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$anonfun$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$anonfun$3$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$typecreator7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$$typecreator9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$Event$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$State$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$StateUpdate$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest$StateUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/FlatMapStateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$4$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$4$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$9$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$9$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$typecreator11$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$typecreator12$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$typecreator15$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$typecreator5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$$typecreator9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$model_instance$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM$model_instance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GMM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$calcTopLevelHierarcy$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$calcTopLevelHierarcy$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$anonfun$calcTopLevelHierarcy$1$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$$typecreator7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GraghTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GragphxPregleTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GragphxPregleTest$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GragphxPregleTest$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GragphxPregleTest$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GragphxPregleTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/GragphxPregleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HFilePartitioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HbaseCount$$anonfun$main$1$$anonfun$apply$mcV$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HbaseCount$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HbaseCount$$anonfun$main$2$$anonfun$apply$mcV$sp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HbaseCount$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HbaseCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HbaseCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HdfsToSql$$anonfun$tieba$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HdfsToSql$$anonfun$weibo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HdfsToSql$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HdfsToSql.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$$anonfun$main$2$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$$anonfun$main$2$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$ResultKV$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest$ResultKV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HfileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HiveUDTFTest$$anonfun$process$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HiveUDTFTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Hive_HbaseTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Hive_HbaseTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Hive_HbaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HotWordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/HotWordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaConsumer$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaConsumer$$anonfun$2$$anonfun$apply$1$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaConsumer$$anonfun$2$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaConsumer$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaConsumer$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaConsumer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaProducer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KafkaProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$5$$anonfun$apply$1$$anonfun$apply$mcV$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$5$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$service$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$service$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$service$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$anonfun$service$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/KongGangCarCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$1$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$1$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$3$$anonfun$apply$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$3$$anonfun$apply$5$$anonfun$apply$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$3$$anonfun$apply$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1$$anonfun$getLang$1$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LanguegeAnalysis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadData$$anonfun$main$1$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadData$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadData$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadData$$anonfun$main$3$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadData$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadData$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadUserName2Hbase$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadUserName2Hbase$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadUserName2Hbase$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadUserName2Hbase$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadUserName2Hbase$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/LoadUserName2Hbase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/MLFKafkaTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/MLFKafkaTest$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/MLFKafkaTest$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/MLFKafkaTest$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/MLFKafkaTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/MLFKafkaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/MergeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$3$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$3$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$6$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$8$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$Rating$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF$Rating.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ModelBasedCF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$4$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$$anonfun$main$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/NEWTempDuty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$anonfun$3$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$anonfun$isExist$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$anonfun$put$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$$typecreator4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/PostsNumberCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ReadHDFSXJ$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ReadHDFSXJ$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ReadHDFSXJ$$anonfun$analysize$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ReadHDFSXJ$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ReadHDFSXJ$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ReadHDFSXJ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanUsers$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanUsers$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ScanUsers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$12$$anonfun$apply$4$$anonfun$apply$mcV$sp$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$12$$anonfun$apply$4$$anonfun$apply$mcV$sp$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$12$$anonfun$apply$4$$anonfun$apply$mcV$sp$8$$anonfun$apply$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$12$$anonfun$apply$4$$anonfun$apply$mcV$sp$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$12$$anonfun$apply$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$2$$anonfun$apply$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$2$$anonfun$apply$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$2$$anonfun$apply$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$2$$anonfun$apply$7$$anonfun$apply$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$2$$anonfun$apply$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$2$$anonfun$apply$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$3$$anonfun$apply$1$$anonfun$apply$mcV$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$3$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$6$$anonfun$apply$2$$anonfun$apply$mcV$sp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$6$$anonfun$apply$2$$anonfun$apply$mcV$sp$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$6$$anonfun$apply$2$$anonfun$apply$mcV$sp$4$$anonfun$apply$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$6$$anonfun$apply$2$$anonfun$apply$mcV$sp$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$6$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$9$$anonfun$apply$3$$anonfun$apply$mcV$sp$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$9$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$anonfun$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$typecreator11$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$typecreator13$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$typecreator15$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$typecreator4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$typecreator5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$$typecreator7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/SecondTemporaryDuty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$anonfun$3$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$typecreator7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$$typecreator9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$Event$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$SessionInfo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$SessionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$SessionUpdate$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV$SessionUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructruedStreamingCountPV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructuredStreamingWindowTest$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructuredStreamingWindowTest$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructuredStreamingWindowTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/StructuredStreamingWindowTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$2$$anonfun$apply$1$$anonfun$apply$mcV$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$2$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$typecreator5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$$typecreator7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/TemporaryDuty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$typecreator5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$$typecreator9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/ThreadTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$$anonfun$runJob$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$$anonfun$validate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$$anonfun$validate$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$$anonfun$validate$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$getCosinSimilarity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim$$anonfun$getCosinSimilarity$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BlasSim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BoundedPriorityQueue$$anonfun$$plus$plus$eq$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/BoundedPriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/Person$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$$anonfun$byId$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$$anonfun$findUltimateParent$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$$anonfun$findUltimateParent$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/RecursiveParentLookup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/SparkSQLRecurse$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/SparkSQLRecurse$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/SparkSQLRecurse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model$$anonfun$idfCalculate$1$$anonfun$apply$1$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model$$anonfun$idfCalculate$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model$$anonfun$idfCalculate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model$$anonfun$tfCalculate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/TF_IDF_Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/WithAncestor$$anonfun$hasGrandparent$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/WithAncestor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/algorithm/WithAncestor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/Hbase/HbaseAPI$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/Hbase/HbaseAPI$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/Hbase/HbaseAPI$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/Hbase/HbaseAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/Hbase/OperationHbase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$rank$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$rank$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$4$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$rank$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$rank$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$rank$1$$anonfun$apply$mcV$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$rank$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$rank$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$sortByValue$1$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword$$anonfun$sortByValue$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankKeyword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankWordSet$$anonfun$transform$1$$anonfun$apply$1$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankWordSet$$anonfun$transform$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankWordSet$$anonfun$transform$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankWordSet$$anonfun$transform$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/algorithm/TextRankWordSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/mysql/MysqlAPI$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/mysql/MysqlAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/mysql/MysqlTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/mysql/MysqlTest$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/mysql/MysqlTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/mysql/MysqlTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/redis/RedisAPI$$anonfun$setData2RedisList$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/redis/RedisAPI$$anonfun$setData2RedisList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/commen/redis/RedisAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/ConnectHbase$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/ConnectHbase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/MD5Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/ObjectSchema$$anonfun$common_schemas$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/ObjectSchema$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/ObjectSchema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs$$anonfun$register$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/hbase/SparkUDFs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/BitMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/HashAl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/JoinThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/KeyQualifierComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/MainClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/TrieTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/VolatileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/canal/CanalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/javas/save.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/listener/MyListener$MyListener$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/listener/MyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/myUdaf/DateRange$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/myUdaf/DateRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/myUdaf/MyUdaf$$anonfun$update$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/myUdaf/MyUdaf$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/myUdaf/MyUdaf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/myUdaf/YearOnYearCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$setHistoryData2Redis$1$$anonfun$apply$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$setHistoryData2Redis$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$updateHistoryData$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$updateHistoryData$1$$anonfun$apply$2$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$updateHistoryData$1$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$updateHistoryData$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$$anonfun$updateHistoryData$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/DisatserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/RDD2DataFrameReflection$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/RDD2DataFrameReflection$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/RDD2DataFrameReflection$$typecreator3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/RDD2DataFrameReflection$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/RDD2DataFrameReflection$Student$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/RDD2DataFrameReflection$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/scheduler/RDD2DataFrameReflection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/service/PopRedis$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/service/PopRedis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/DriverHeapMysqlSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/DropDunplicatesHbaseSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/ExecutorHeapMysqlSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HbaseSink$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HbaseSink$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HbaseSink$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HbaseSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HotWords2MysqlSink$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HotWords2MysqlSink$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HotWords2MysqlSink$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/sink/HotWords2MysqlSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/EnumUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/ExcelReaderUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/GetPlaceWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/MyPartitioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/MyUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/MyUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/SparkPartitioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/TransformData$$anonfun$registMysql$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/TransformData$$anonfun$registMysql$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sinosoft/utils/TransformData.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,62 +630,72 @@
     <session id="-1304726611">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="43" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.1" value="8" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.24" value="2" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.26" value="4" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="19" />
+          <entry key="class" value="25" />
           <entry key="iml" value="5" />
-          <entry key="java" value="45" />
+          <entry key="java" value="57" />
           <entry key="md" value="1" />
-          <entry key="pom" value="1" />
-          <entry key="scala" value="139" />
-          <entry key="xml" value="9" />
+          <entry key="pom" value="3" />
+          <entry key="properties" value="1" />
+          <entry key="scala" value="238" />
+          <entry key="txt" value="3" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="19" />
+          <entry key="CLASS" value="25" />
           <entry key="IDEA_MODULE" value="5" />
-          <entry key="JAVA" value="45" />
+          <entry key="JAVA" value="57" />
           <entry key="Markdown" value="1" />
-          <entry key="Scala" value="139" />
-          <entry key="XML" value="10" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="1" />
+          <entry key="Scala" value="238" />
+          <entry key="XML" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="606" />
-          <entry key="scala" value="4433" />
-          <entry key="txt" value="12" />
-          <entry key="xml" value="10" />
+          <entry key="java" value="652" />
+          <entry key="properties" value="5" />
+          <entry key="scala" value="8124" />
+          <entry key="txt" value="18" />
+          <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="606" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Scala" value="4433" />
-          <entry key="XML" value="10" />
+          <entry key="JAVA" value="652" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Properties" value="5" />
+          <entry key="Scala" value="8124" />
+          <entry key="XML" value="19" />
         </counts>
       </usages-collector>
     </session>
@@ -102,77 +703,72 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/hbase/SparkUDFs.scala">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/clustering/KMeans.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="395">
+              <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/JavaObjectJVM.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/evaluation/MulticlassClassificationEvaluator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="1025">
+              <caret line="63" column="61" selection-start-line="63" selection-start-column="61" selection-end-line="63" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.5.1/hadoop-mapreduce-client-core-2.5.1-sources.jar!/org/apache/hadoop/mapred/FileInputFormat.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/param/shared/sharedParams.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="343" column="40" selection-start-line="343" selection-start-column="40" selection-end-line="343" selection-end-column="40" />
+            <state relative-caret-position="2075">
+              <caret line="98" column="81" selection-start-line="98" selection-start-column="68" selection-end-line="98" selection-end-column="81" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/fs/FileStatus.java">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/GMM.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/AggregateByKeyTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="203" column="14" selection-start-line="203" selection-start-column="14" selection-end-line="203" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/src.zip!/java/nio/ByteBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="714" column="16" selection-start-line="714" selection-start-column="16" selection-end-line="714" selection-end-column="16" />
+            <state relative-caret-position="4925">
+              <caret line="212" column="119" selection-start-line="212" selection-start-column="102" selection-end-line="212" selection-end-column="119" />
               <folding>
-                <element signature="e#19972#19973#0" expanded="true" />
-                <element signature="e#20018#20019#0" expanded="true" />
+                <element signature="e#22#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/canal/Pic2Bin.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="618">
+              <caret line="313" column="89" selection-start-line="313" selection-start-column="89" selection-end-line="313" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-site-plugin/3.7.1/maven-site-plugin-3.7.1.pom">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/classification/DecisionTreeClassifier.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/Neo4jTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2800">
+              <caret line="119" column="19" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,10 +777,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/GMM.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+            <state relative-caret-position="700">
+              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+              <folding>
+                <element signature="e#22#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/rdd/OrderedRDDFunctions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -200,21 +808,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>津RYL577</find>
-      <find>poi-excelant</find>
-      <find>aggregateByKey</find>
-      <find>1575156758000</find>
-      <find>车牌</find>
-      <find>警</find>
-      <find>case</find>
-      <find>List(</find>
-      <find>lineage</find>
-      <find>LineageInfo</find>
-      <find>hive</find>
-      <find>table</find>
-      <find>.config(</find>
-      <find>netlib</find>
-      <find>BlasSim</find>
       <find>JedisC</find>
       <find>.config</find>
       <find>sc.to</find>
@@ -230,6 +823,21 @@
       <find>udf</find>
       <find>SPLIT_SLOP</find>
       <find>blocksize</find>
+      <find>kmeans</find>
+      <find>HanLP</find>
+      <find>yield</find>
+      <find>show</find>
+      <find>listFiles</find>
+      <find>Vectors.de</find>
+      <find>sparse</find>
+      <find>Normalizer</find>
+      <find>numFeatures</find>
+      <find>StandardScaler</find>
+      <find>save</find>
+      <find>flume</find>
+      <find>elas</find>
+      <find>new KMeans()</find>
+      <find>-0.002352877702847225,0.0027386598800373924,-0.016146774756061365,-0.01964492742163755</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -244,7 +852,6 @@
       <list>
         <option value="$PROJECT_DIR$/dependency-reduced-pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/AggregateByKeyTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/ExcelReaderUtil.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/KongGangCarCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/hbase/MD5Utils.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/HashAl.java" />
@@ -254,21 +861,30 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/BoundedPriorityQueue.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/SparkSQLRecurse.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/ModelBasedCF.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/ScanHbaseByTimesTamp.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/config/C3p0PropertiesUtils.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/MDBManager.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/SingletonTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/BlasSim.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/sink/DriverHeapMysqlSink.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/JavaClassJVM.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/ThreadTest.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/JavaObjectJVM.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/TemporaryDuty.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/hbase/SparkUDFs.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/GMM.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/HanLP.properties" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/ExcelReaderUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/TpDutyTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/DuplicateArticle.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/canal/Pic2Bin.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/CaseLabel.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/GMM.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/Neo4jTest.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/HfileTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/TF_IDF_Model.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -408,201 +1024,16 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="commen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="commen" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="javas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="javas" type="462c0819:PsiDirectoryNode" />
-              <item name="canal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="myUdaf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="sink" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="disasterClassfy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosoft" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-mapreduce-client-core:2.5.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-mapreduce-client-core:2.5.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hadoop-mapreduce-client-core-2.5.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-mapreduce-client-core:2.5.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hadoop-mapreduce-client-core-2.5.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.hadoop:hadoop-mapreduce-client-core:2.5.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="hadoop-mapreduce-client-core-2.5.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="mapred" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-core_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-core_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-core_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-core_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="shuffle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="disasterClassfy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-core_2.11-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="shuffle" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="File&#9;FILE&#9;jar://D:/maven/maven-repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.5.1/hadoop-mapreduce-client-core-2.5.1.jar!/org/apache/hadoop/mapred/FileInputFormat.class&#10;UnsafeShuffleWriter&#9;PSI&#9;JAVA://org.apache.spark.shuffle.sort.UnsafeShuffleWriter&#10;LineageL&#9;PSI&#9;JAVA://org.apache.hadoop.hive.ql.hooks.LineageLogger&#10;Lineage&#9;FILE&#9;jar://D:/maven/maven-repository/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar!/org/apache/hadoop/hive/ql/hooks/LineageInfo.class" />
+    <property name="SearchEverywhereHistoryKey" value="ParseDriver&#9;PSI&#9;JAVA://org.apache.hadoop.hive.ql.parse.ParseDriver&#10;VectorUDT&#9;null&#9;null&#10;Normalizer&#9;null&#9;null&#10;LabeledPoint&#9;null&#9;null&#10;loadLibSVMFile&#9;null&#9;null&#10;RandomForest&#9;null&#9;null&#10;LinearSVC&#9;null&#9;null&#10;File&#9;FILE&#9;jar://D:/maven/maven-repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.5.1/hadoop-mapreduce-client-core-2.5.1.jar!/org/apache/hadoop/mapred/FileInputFormat.class&#10;UnsafeShuffleWriter&#9;PSI&#9;JAVA://org.apache.spark.shuffle.sort.UnsafeShuffleWriter&#10;LineageL&#9;PSI&#9;JAVA://org.apache.hadoop.hive.ql.hooks.LineageLogger&#10;Lineage&#9;FILE&#9;jar://D:/maven/maven-repository/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar!/org/apache/hadoop/hive/ql/hooks/LineageInfo.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588149878720" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589790337582" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tfserver-spark-scala" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -627,41 +1058,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Pic2Bin">
-    <configuration name="JavaObjectJVM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sinosoft.javas.JavaObjectJVM" />
+  <component name="RunManager" selected="Application.TF_IDF_Model (1)">
+    <configuration name="Neo4jTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.javas.Neo4jTest" />
       <module name="disasterClassify" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sinosoft.javas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <shortenClasspath name="MANIFEST" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Job" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.sinosoft.Job" />
-      <module name="disasterClassify" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sinosoft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <shortenClasspath name="MANIFEST" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Jobs" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.sinosoft.Jobs" />
-      <module name="disasterClassify" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sinosoft.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -684,8 +1087,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sinosoft.ThreadTest" />
+    <configuration name="TF_IDF_Model (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.algorithm.TF_IDF_Model" />
+      <module name="disasterClassify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinosoft.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TF_IDF_Model" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.Test2" />
+      <module name="disasterClassify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sinosoft.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TpDutyTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sinosoft.TpDutyTest" />
       <module name="disasterClassify" />
       <extension name="coverage">
         <pattern>
@@ -706,19 +1137,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Job" />
-      <item itemvalue="Application.Jobs" />
-      <item itemvalue="Application.ThreadTest" />
-      <item itemvalue="Application.JavaObjectJVM" />
       <item itemvalue="Application.Pic2Bin" />
+      <item itemvalue="Application.TF_IDF_Model" />
+      <item itemvalue="Application.TpDutyTest" />
+      <item itemvalue="Application.Neo4jTest" />
+      <item itemvalue="Application.TF_IDF_Model (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TF_IDF_Model (1)" />
+        <item itemvalue="Application.TF_IDF_Model" />
+        <item itemvalue="Application.Neo4jTest" />
         <item itemvalue="Application.Pic2Bin" />
-        <item itemvalue="Application.JavaObjectJVM" />
-        <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.Jobs" />
-        <item itemvalue="Application.Job" />
+        <item itemvalue="Application.TpDutyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -763,7 +1194,24 @@
       <workItem from="1587948259008" duration="44000" />
       <workItem from="1588037961037" duration="4550000" />
       <workItem from="1588066938399" duration="2252000" />
-      <workItem from="1588124647225" duration="2908000" />
+      <workItem from="1588124647225" duration="3523000" />
+      <workItem from="1588231436236" duration="689000" />
+      <workItem from="1588841975071" duration="3062000" />
+      <workItem from="1588898335540" duration="9900000" />
+      <workItem from="1588983858300" duration="17962000" />
+      <workItem from="1589156968238" duration="17763000" />
+      <workItem from="1589242880180" duration="10603000" />
+      <workItem from="1589329380341" duration="7614000" />
+      <workItem from="1589415364187" duration="16584000" />
+      <workItem from="1589504741626" duration="16490000" />
+      <workItem from="1589589897754" duration="2812000" />
+      <workItem from="1589701566055" duration="1343000" />
+      <workItem from="1589761614031" duration="19708000" />
+      <workItem from="1589802937689" duration="376000" />
+      <workItem from="1589955149251" duration="66000" />
+      <workItem from="1590202097509" duration="1432000" />
+      <workItem from="1590473007210" duration="599000" />
+      <workItem from="1590562946462" duration="1043000" />
     </task>
     <task id="LOCAL-00001" summary="11111">
       <created>1585730734769</created>
@@ -870,17 +1318,24 @@
       <option name="project" value="LOCAL" />
       <updated>1587709425100</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="第二版">
+      <created>1588151717079</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1588151717079</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121817000" />
+    <option name="totallyTimeSpent" value="250478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14818764" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -888,19 +1343,19 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.16160521" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.18708241" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5542299" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4142539" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.116926506" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48218262" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.17321016" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32962137" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32321042" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.23210412" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.23162584" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -915,7 +1370,7 @@
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="11" side_tool="true" weight="0.22228146" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26279318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -923,19 +1378,19 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.16160521" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18708241" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5542299" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4142539" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.116926506" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48218262" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.17321016" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32962137" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32321042" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.23210412" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.23162584" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -960,7 +1415,8 @@
     <MESSAGE value="11111" />
     <MESSAGE value="first" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="第二版" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二版" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -979,392 +1435,388 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala</url>
-          <line>109</line>
+          <line>39</line>
           <properties />
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/IndexedSeqOptimized.scala</url>
-          <line>110</line>
+          <url>file://$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/TF_IDF_Model.scala</url>
+          <line>144</line>
           <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/canal/Pic2Bin.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/GetPlaceWeb.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/mllib/feature/VectorTransformer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="295">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/EnumUtil.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib-local_2.11/2.2.0/spark-mllib-local_2.11-2.2.0.jar!/org/apache/spark/ml/linalg/Vector.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="147">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/SecondTemporaryDuty.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/linalg/VectorUDT.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state relative-caret-position="550">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/HotWordCount.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/mllib/feature/HashingTF.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="2275">
+          <caret line="118" column="15" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/SingletonTest.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/feature/IDF.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/mllib/linalg/Vectors.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17750">
+          <caret line="743" column="18" selection-start-line="743" selection-start-column="6" selection-end-line="743" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/mllib/feature/Normalizer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/Map.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/source/libsvm/LibSVMRelation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="74" column="26" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/MapLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/reflect/Manifest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3300">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scalanlp/breeze_2.11/0.13.1/breeze_2.11-0.13.1.jar!/breeze/linalg/DenseVector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/mllib/linalg/distributed/RowMatrix.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8925">
+          <caret line="386" selection-start-line="386" selection-end-line="386" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/mllib/feature/PCA.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/feature/PCA.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/DuplicateArticle.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="101" column="51" lean-forward="true" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/TraversableOnce.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1232">
+          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/mutable/BufferLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="157" column="27" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/mutable/ArrayBuffer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1307">
+          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="3664" column="24" selection-start-line="3664" selection-start-column="15" selection-end-line="3664" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/HbaseCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/canal/CanalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/commen/mysql/MysqlAPI.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/canal/Pic2Bin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="402">
+          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/commen/redis/RedisAPI.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/CaseLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/MLFKafkaTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hive/hive-exec/2.3.4/hive-exec-2.3.4-sources.jar!/org/apache/hadoop/hive/ql/parse/ParseDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="311" column="34" lean-forward="true" selection-start-line="311" selection-start-column="34" selection-end-line="311" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/HiveUDTFTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/ScanUsers.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/KeyQualifierComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/Predef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/Partitioner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/feature/HashingTF.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="93" column="15" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/feature/StringIndexer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="317" column="6" selection-start-line="317" selection-start-column="6" selection-end-line="317" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/Pipeline.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="110" column="6" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/tree/treeParams.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="76" column="74" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0-sources.jar!/org/apache/spark/sql/Dataset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42150">
+          <caret line="1738" column="17" selection-start-line="1738" selection-start-column="6" selection-end-line="1738" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/HfileTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1600">
-          <caret line="64" column="15" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/config/C3p0PropertiesUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/StructuredStreamingWindowTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/StructruedStreamingCountPV.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2919">
-          <caret line="126" column="27" selection-start-line="126" selection-end-line="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/MLFKafkaTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/Hdfs2HDFS.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2331">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/commen/Hbase/HbaseAPI.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/commen/Hbase/OperationHbase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/ModelBasedCF.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4400">
-          <caret line="184" column="29" selection-start-line="184" selection-start-column="18" selection-end-line="184" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/JavaClassJVM.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/utils/MDBManager.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2375">
-          <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
-          <folding>
-            <element signature="e#22#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/LoadData.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/BlasSim.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="e#32#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/sink/HbaseSink.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/sink/DriverHeapMysqlSink.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8675">
-          <caret line="347" column="24" selection-start-line="347" selection-start-column="24" selection-end-line="347" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/fommil/netlib/core/1.1.2/core-1.1.2-sources.jar!/com/github/fommil/netlib/BLAS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191150">
-          <caret line="7679" column="33" selection-start-line="7679" selection-start-column="24" selection-end-line="7679" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/shuffle/sort/UnsafeShuffleWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="72" column="48" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/PostsNumberCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="89" column="39" lean-forward="true" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/TemporaryDuty.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/rdd/HadoopRDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3900">
-          <caret line="193" column="41" selection-start-line="193" selection-start-column="41" selection-end-line="193" selection-end-column="41" />
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/SparkContext.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35675">
-          <caret line="1483" column="6" selection-start-line="1483" selection-start-column="6" selection-end-line="1483" selection-end-column="6" />
+        <state relative-caret-position="289">
+          <caret line="827" column="6" selection-start-line="827" selection-start-column="6" selection-end-line="827" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.5.1/hadoop-mapreduce-client-core-2.5.1.jar!/org/apache/hadoop/mapred/InputFormat.class">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/algorithm/TF_IDF_Model.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="420">
+          <caret line="294" column="46" selection-start-line="294" selection-start-column="46" selection-end-line="294" selection-end-column="46" />
+          <folding>
+            <element signature="e#32#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/HiveUDTFTest.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/evaluation/MulticlassClassificationEvaluator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="1025">
+          <caret line="63" column="61" selection-start-line="63" selection-start-column="61" selection-end-line="63" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0-sources.jar!/org/apache/spark/sql/DataFrameReader.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/param/shared/sharedParams.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15600">
-          <caret line="656" column="26" selection-start-line="656" selection-start-column="26" selection-end-line="656" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0-sources.jar!/org/apache/spark/sql/Dataset.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27525">
-          <caret line="1153" column="9" selection-start-line="1153" selection-start-column="9" selection-end-line="1153" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.2.0/spark-catalyst_2.11-2.2.0-sources.jar!/org/apache/spark/sql/catalyst/plans/logical/basicLogicalOperators.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/LanguegeAnalysis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.0/spark-sql_2.11-2.2.0-sources.jar!/org/apache/spark/sql/streaming/DataStreamReader.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib-local_2.11/2.2.0/spark-mllib-local_2.11-2.2.0.jar!/org/apache/spark/ml/linalg/Vectors.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="2075">
+          <caret line="98" column="81" selection-start-line="98" selection-start-column="68" selection-end-line="98" selection-end-column="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/GMM.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/JavaObjectJVM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/src.zip!/java/nio/ByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="714" column="16" selection-start-line="714" selection-start-column="16" selection-end-line="714" selection-end-column="16" />
+        <state relative-caret-position="4925">
+          <caret line="212" column="119" selection-start-line="212" selection-start-column="102" selection-end-line="212" selection-end-column="119" />
           <folding>
-            <element signature="e#19972#19973#0" expanded="true" />
-            <element signature="e#20018#20019#0" expanded="true" />
+            <element signature="e#22#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-site-plugin/3.7.1/maven-site-plugin-3.7.1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/classification/DecisionTreeClassifier.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="203" column="14" selection-start-line="203" selection-start-column="14" selection-end-line="203" selection-end-column="14" />
+        <state relative-caret-position="950">
+          <caret line="68" column="65" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/AggregateByKeyTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/Neo4jTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/javas/canal/Pic2Bin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="2800">
+          <caret line="119" column="19" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.5.1/hadoop-mapreduce-client-core-2.5.1.jar!/org/apache/hadoop/mapred/FileInputFormat.class">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/Test2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+        <state relative-caret-position="700">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
           <folding>
-            <element signature="e#1812#1992#0" expanded="true" />
-            <element signature="e#1991#1992#0" expanded="true" />
+            <element signature="e#22#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.5.1/hadoop-mapreduce-client-core-2.5.1-sources.jar!/org/apache/hadoop/mapred/FileInputFormat.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.0/spark-core_2.11-2.2.0-sources.jar!/org/apache/spark/rdd/OrderedRDDFunctions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="343" column="40" selection-start-line="343" selection-start-column="40" selection-end-line="343" selection-end-column="40" />
+        <state relative-caret-position="750">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2.jar!/org/apache/hadoop/fs/FileStatus.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="e#3401#3402#0" expanded="true" />
-            <element signature="e#3438#3439#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="618">
+          <caret line="313" column="89" selection-start-line="313" selection-start-column="89" selection-end-line="313" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2-sources.jar!/org/apache/hadoop/fs/FileStatus.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/2.2.0/spark-mllib_2.11-2.2.0-sources.jar!/org/apache/spark/ml/clustering/KMeans.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sinosoft/hbase/SparkUDFs.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="395">
+          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
         </state>
       </provider>
     </entry>

@@ -78,7 +78,7 @@ object HfileTest {
     val sc = spark.sparkContext
     // 模拟一个rdd生成  map是列名和列值  还没有指定列族
     val rdd = sc.parallelize((50000 to 100000).map(rowkey => {
-      rowkey -> Map("column1" -> (rowkey.toString + "column"), "column2" -> (rowkey + "column2"))
+      "0001|"+rowkey -> Map("column1" -> (rowkey.toString + "column"), "column2" -> (rowkey + "column2"))
     }), 50)
 
 
@@ -91,11 +91,13 @@ object HfileTest {
       */
     implicit val my_self_Ordering = new Ordering[String] {
       override def compare(a: String, b: String): Int = {
-        val a_b: Array[String] = a.split("_")
+        val a_b: Array[String] = a.split("|")
         val a_1 = a_b(0).toInt
+        //根据key的类型来计算值
         val a_2 = a_b(1).toInt
         val b_b = b.split("_")
         val b_1 = b_b(0).toInt
+        //根据key的类型计算值
         val b_2 = b_b(1).toInt
         if (a_1 == b_1) {
           a_2 - b_2
@@ -164,7 +166,7 @@ class HFilePartitioner(num: Int) extends Partitioner {
        }
      }*/
     //default return 1
-    var n = HashAl.RSHash(domain, 49)
+    var n = HashAl.RSHash(domain, num)
     n
   }
 
