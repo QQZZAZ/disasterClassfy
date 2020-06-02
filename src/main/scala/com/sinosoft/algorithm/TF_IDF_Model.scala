@@ -179,7 +179,9 @@ object TF_IDF_Model {
     val normalizer = new Normalizer()
       .setInputCol("features")
       .setOutputCol("normFeatures")
-      .setP(1.0)
+      .setP(1.0) // L1范式正则化向量 ，默认是L2范式
+
+
 
     val l1NormData = normalizer.transform(rescaledData)
     println("===============================")
@@ -238,6 +240,7 @@ object TF_IDF_Model {
       .setMinInfoGain(0.2) //一个节点分裂的最小信息增益，值为[0,1]
       .setMinInstancesPerNode(10) //每个节点包含的最小样本数
       .setProbabilityCol("prob")
+
     //      .setSeed(123456)
 
 

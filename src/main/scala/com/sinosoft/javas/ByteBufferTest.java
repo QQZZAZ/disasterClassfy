@@ -1,0 +1,81 @@
+package com.sinosoft.javas;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+import java.nio.ByteBuffer;
+import java.util.Date;
+import java.util.concurrent.Executors;
+import java.util.concurrent.LinkedBlockingQueue;
+
+import org.apache.commons.io.IOUtils;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FSDataOutputStream;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+
+import java.io.FileInputStream;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
+
+/**
+ * LinkedBlockingQueue 多用于任务队列
+ * ConcurrentLinkedQueue 多用于消息队列
+ * <p>
+ * 单生产者，单消费者 用 LinkedBlockingqueue
+ * 多生产者，单消费者 用 LinkedBlockingqueue
+ * 单生产者 ，多消费者 用 ConcurrentLinkedQueue
+ * 多生产者 ，多消费者 用 ConcurrentLinkedQueue
+ */
+public class ByteBufferTest {
+
+    public static void main(String[] args) throws IOException, InterruptedException {
+        FileWrite fw = new FileWrite();
+        new Thread(() -> {
+            fw.run();
+        }, "A").start();
+
+       /* ByteBuffer bf = ByteBuffer.allocateDirect(1024);
+
+        Configuration conf = new Configuration();
+        //这里指定使用的是 hdfs文件系统
+        conf.set("fs.defaultFS", "hdfs://master:9000");
+
+        //通过这种方式设置java客户端身份
+        System.setProperty("HADOOP_USER_NAME", "root");
+        FileSystem fs = FileSystem.get(conf);*/
+        //或者使用下面的方式设置客户端身份
+        //FileSystem fs = FileSystem.get(new URI("hdfs://master:9000"),conf,"root");
+        // fs.create(new Path("/helloByJava")); //创建一个目录
+
+        //文件下载到本地 如果出现0644错误或找不到winutils.exe,则需要设置windows环境和相关文件.
+        //fs.copyToLocalFile(new Path("/zookeeper.out"), new Path("D:\\test\\examplehdfs"));
+
+        FileQueueEntity fqe = FileQueueEntity.getInstance();
+        //使用Stream的形式操作HDFS，这是更底层的方式
+       /* FSDataOutputStream outputStream = fs.create(new Path("/2.txt"), true); //输出流到HDFS
+        FileInputStream inputStream = new FileInputStream("D:/test/examplehdfs/1.txt"); //从本地输入流。
+        IOUtils.copy(inputStream, outputStream); //完成从本地上传文件到hdfs
+
+        fs.close();*/
+        LinkedBlockingQueue<String[]> qu = fqe.getFileQueue();
+        int i = 0;
+        Long start = System.currentTimeMillis();
+        while (i < 500001) {
+            String[] arr = new String[4];
+            arr[0] = i + "a";
+            arr[1] = i + "b";
+            arr[2] = i + "c";
+            arr[3] = i + "d";
+            qu.put(arr);
+            fqe.addFileQueueCount();
+            i ++;
+        }
+
+        System.out.println("over");
+        Long end = System.currentTimeMillis();
+        System.out.println(end - start + "毫秒数");
+
+    }
+}
