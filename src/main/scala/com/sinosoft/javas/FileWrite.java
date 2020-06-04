@@ -1,9 +1,7 @@
 package com.sinosoft.javas;
 
 import java.io.*;
-import java.util.Iterator;
 import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class FileWrite implements Runnable {
     private volatile FileQueueEntity fqe = FileQueueEntity.getInstance();
@@ -23,20 +21,20 @@ public class FileWrite implements Runnable {
         while (true) {
             while (fqe.getFileQueueCount() >= 1000) {
                 try {
-                    txtWriter = new FileWriter(logFile,true);
+                    txtWriter = new FileWriter(logFile, true);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
                 fqe.decFileQueueCount();
                 while (i < 1000) {
-                    String[]arr = new String[0];
+                    String[] arr = new String[0];
                     try {
                         arr = qu.take();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
                     try {
-                        txtWriter.write(arr[0]+"\tab"+arr[1]+"\tab"+arr[2]+"\tab"+arr[3]+"\n");
+                        txtWriter.write(arr[0] + "\tab" + arr[1] + "\tab" + arr[2] + "\tab" + arr[3] + "\n");
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
@@ -51,7 +49,7 @@ public class FileWrite implements Runnable {
                 i = 0;
             }
             try {
-                Thread.sleep(500);
+                Thread.sleep(5000);
                 System.out.println("还剩" + fqe.getFileQueueCount());
 
             } catch (InterruptedException e) {

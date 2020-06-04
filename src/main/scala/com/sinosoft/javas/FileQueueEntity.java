@@ -1,6 +1,5 @@
 package com.sinosoft.javas;
 
-import java.util.ArrayList;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -19,7 +18,7 @@ public class FileQueueEntity {
     /**
      * 缓存队列
      */
-    private volatile LinkedBlockingQueue<String[]> FileCache = new LinkedBlockingQueue(10000);
+    private volatile LinkedBlockingQueue<String[]> FileCache = new LinkedBlockingQueue(20000);
 
     /**
      * 缓存的byte数，120M一个文件

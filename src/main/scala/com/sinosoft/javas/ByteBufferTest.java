@@ -59,23 +59,44 @@ public class ByteBufferTest {
         IOUtils.copy(inputStream, outputStream); //完成从本地上传文件到hdfs
 
         fs.close();*/
-        LinkedBlockingQueue<String[]> qu = fqe.getFileQueue();
-        int i = 0;
-        Long start = System.currentTimeMillis();
-        while (i < 500001) {
-            String[] arr = new String[4];
-            arr[0] = i + "a";
-            arr[1] = i + "b";
-            arr[2] = i + "c";
-            arr[3] = i + "d";
-            qu.put(arr);
-            fqe.addFileQueueCount();
-            i ++;
-        }
 
-        System.out.println("over");
-        Long end = System.currentTimeMillis();
-        System.out.println(end - start + "毫秒数");
+        new Thread(() -> {
+            int j = 0;
+            LinkedBlockingQueue<String[]> qu = fqe.getFileQueue();
+            while (j < 500001) {
+                String[] arr = new String[4];
+                arr[0] = j + "a";
+                arr[1] = j + "b";
+                arr[2] = j + "c";
+                arr[3] = j + "d";
+                try {
+                    qu.put(arr);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                fqe.addFileQueueCount();
+                j ++;
+            }
+        }, "B").start();
+
+        new Thread(() -> {
+            int j = 0;
+            LinkedBlockingQueue<String[]> qu = fqe.getFileQueue();
+            while (j < 500001) {
+                String[] arr = new String[4];
+                arr[0] = j + "a1";
+                arr[1] = j + "b1";
+                arr[2] = j + "c1";
+                arr[3] = j + "d1";
+                try {
+                    qu.put(arr);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                fqe.addFileQueueCount();
+                j ++;
+            }
+        }, "C").start();
 
     }
 }

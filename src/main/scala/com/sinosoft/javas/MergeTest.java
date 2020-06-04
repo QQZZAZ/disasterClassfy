@@ -1,21 +1,16 @@
-package com.sinosoft;
+package com.sinosoft.javas;
 
 public class MergeTest {
     public static void main(String[] args) {
-        int[] arr = new int[5];
-        arr[0] = 10;
-        arr[1] = 9;
-        arr[2] = 1;
-        arr[3] = 2;
-        arr[4] = 4;
-        int[] a = sort(arr, 0, 3);
+        int[] arr = {1,2,3,5,10,9,8};
+        int[] a = sort(arr, 0, 6);
         for (int i : a) {
             System.out.println(i);
         }
     }
 
     public static int[] sort(int[] a, int low, int high) {
-        int mid = (low + high) / 2;
+        int mid = low + (high - low) / 2;
         if (low < high) {
             sort(a, low, mid);
             sort(a, mid + 1, high);
