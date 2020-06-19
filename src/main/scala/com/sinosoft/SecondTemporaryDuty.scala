@@ -97,6 +97,7 @@ object SecondTemporaryDuty {
     list.sortBy(_._2)
       .foreach(println(_))
     println(list.map(_._2).reduce(_ + _) + "条数据")
+
     spark.close()
     sc.stop()
   }

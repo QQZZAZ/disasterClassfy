@@ -2,6 +2,8 @@ package com.sinosoft.javas;
 
 import java.io.*;
 import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class FileWrite implements Runnable {
     private volatile FileQueueEntity fqe = FileQueueEntity.getInstance();
@@ -9,7 +11,6 @@ public class FileWrite implements Runnable {
     private volatile PrintWriter pw = new PrintWriter("D:/1.txt");
     final File logFile = new File("D:/1.txt");
     private Writer txtWriter = null;
-
 
     public FileWrite() throws IOException {
 
@@ -22,25 +23,21 @@ public class FileWrite implements Runnable {
             while (fqe.getFileQueueCount() >= 1000) {
                 try {
                     txtWriter = new FileWriter(logFile, true);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                fqe.decFileQueueCount();
-                while (i < 1000) {
-                    String[] arr = new String[0];
-                    try {
-                        arr = qu.take();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
+                    fqe.decFileQueueCount();
+                    while (i < 1000) {
+                        String[] arr = new String[0];
+                        try {
+                            arr = qu.take();
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            txtWriter.write(arr[0] + "\tab" + arr[1] + "\tab" + arr[2] + "\tab" + arr[3] + "\n");
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        i += 1;
                     }
-                    try {
-                        txtWriter.write(arr[0] + "\tab" + arr[1] + "\tab" + arr[2] + "\tab" + arr[3] + "\n");
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                    i += 1;
-                }
-                try {
                     txtWriter.flush();
                     txtWriter.close();
                 } catch (IOException e) {

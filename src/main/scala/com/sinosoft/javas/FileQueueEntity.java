@@ -1,5 +1,6 @@
 package com.sinosoft.javas;
 
+import java.io.*;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -8,7 +9,16 @@ import java.util.concurrent.atomic.AtomicInteger;
  *
  * @author fengyr
  */
-public class FileQueueEntity {
+public class FileQueueEntity implements Runnable, Serializable {
+    private Writer txtWriter = null;
+    final File logFile = new File("D:/1.txt");
+
+    static {
+        FileQueueEntity fqe = FileQueueEntity.getInstance();
+        new Thread(() -> {
+            fqe.run();
+        }, "A").start();
+    }
 
     /**
      * 单例对象
@@ -58,6 +68,44 @@ public class FileQueueEntity {
         return count.getAndAdd(-1000);
     }
 
+    @Override
+    public void run() {
+        int i = 0;
+        while (true) {
+            while (getFileQueueCount() >= 1000) {
+                try {
+                    txtWriter = new FileWriter(logFile, true);
+                    decFileQueueCount();
+                    while (i < 1000) {
+                        String[] arr = new String[0];
+                        try {
+                            arr = FileCache.take();
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            txtWriter.write(arr[0] + "\tab" + arr[1] + "\tab" + arr[2] + "\tab" + arr[3] + "\n");
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        i += 1;
+                    }
+                    txtWriter.flush();
+                    txtWriter.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                i = 0;
+            }
+            try {
+                Thread.sleep(5000);
+                System.out.println("还剩" + getFileQueueCount());
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
     private enum Singleton {
         INSTANCE;
 
@@ -66,6 +114,7 @@ public class FileQueueEntity {
         // JNM会保证这个方法只调用一次
         Singleton() {
             singleton = new FileQueueEntity();
+
         }
 
         public FileQueueEntity getInstance() {

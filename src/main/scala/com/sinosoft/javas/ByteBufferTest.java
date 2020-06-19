@@ -31,10 +31,11 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class ByteBufferTest {
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        FileWrite fw = new FileWrite();
+        /*FileWrite fw = new FileWrite();
         new Thread(() -> {
             fw.run();
-        }, "A").start();
+        }, "A").start();*/
+
 
        /* ByteBuffer bf = ByteBuffer.allocateDirect(1024);
 
@@ -82,7 +83,7 @@ public class ByteBufferTest {
         new Thread(() -> {
             int j = 0;
             LinkedBlockingQueue<String[]> qu = fqe.getFileQueue();
-            while (j < 500001) {
+            while (j < 50000000) {
                 String[] arr = new String[4];
                 arr[0] = j + "a1";
                 arr[1] = j + "b1";

@@ -15,7 +15,8 @@ import org.json.{JSONObject, JSONArray}
 /**
   * 建议在hive客户端建好分区表，然后通过spark写入文件然后通过hive的load命令导入数据
   * 因为部分HQL的DML语法，sparkSQL不支持
-  *
+  *com.sinosoft.Hive_HbaseTest
+  *D:\maven\maven-repository\org\datanucleus\datanucleus-api-jdo\3.2.6\datanucleus-api-jdo-3.2.6.jar
   */
 object Hive_HbaseTest {
   def main(args: Array[String]): Unit = {
@@ -29,9 +30,11 @@ object Hive_HbaseTest {
       .getOrCreate()
     System.setProperty("HADOOP_USER_NAME", "root");
     //    println("ok")
+    hive.sql("show databases").show(false)
     hive.sql("use default")
     val sc = hive.sparkContext
 
+    hive.sql("show tables").show(false)
     import hive.implicits._
     //    val df = hive.sql("select key,wb_scraptime from weibo_info")
     //    df.createOrReplaceTempView("sparkTable")

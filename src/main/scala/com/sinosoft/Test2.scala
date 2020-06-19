@@ -30,35 +30,7 @@ object Test2 {
     val sc = spark.sparkContext
     val array = Array(2, 4, 6, 67, 3, 45, 26, 35, 789, 345)
     val data = sc.parallelize(array)
-    implicit val my_self_Ordering = new Ordering[Int] {
-      override def compare(a: Int, b: Int): Int = {
-        println("进来了")
-        if (a - b > 0) {
-          1
-        } else {
-          -1
-        }
-      }
-    }
-    // 替换repartition组合sortBy
-    val rdd = data.zipWithIndex()
-    rdd.repartitionAndSortWithinPartitions(new HFilePartitioner(2))
-      .foreachPartition(f => {
-        while (f.hasNext) {
-          println(Thread.currentThread().getName + f.next())
-        }
-      })
-
-    //(3,4)
-    //(2,0)
-    //(35,7)
-    //(4,1)
-    //(45,5)
-    //(6,2)
-    //(67,3)
-    //(26,6)
-    //(345,9)
-    //(789,8)
+    data.map(f=>f % 8).foreach(println(_))
     spark.close()
   }
 }
