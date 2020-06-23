@@ -1,5 +1,7 @@
 package com.sinosoft.algorithm
 
+import java.io.PrintWriter
+
 import com.hankcs.hanlp.HanLP
 import com.hankcs.hanlp.dictionary.stopword.CoreStopWordDictionary
 import com.sinosoft.algorithm.TF_IDF_Model.{getDF, transform}
@@ -39,12 +41,12 @@ object LDAModelTest {
     val abb2 = new mutable.HashSet[String]()
     val bro2 = sc.broadcast(abb2)
 
-    val datardd = sc.wholeTextFiles("D:\\data\\caijing").repartition(8)
-    val datardd1 = sc.wholeTextFiles("D:\\data\\caipiao").repartition(8)
-    val datardd2 = sc.wholeTextFiles("D:\\data\\fangchan").repartition(8)
-    val datardd3 = sc.wholeTextFiles("D:\\data\\gupiao").repartition(8)
-    val datardd4 = sc.wholeTextFiles("D:\\data\\jiaju").repartition(8)
-    val datardd5 = sc.wholeTextFiles("D:\\data\\jiaoyu").repartition(8)
+    val datardd = sc.wholeTextFiles("D:\\data\\caijing")
+    val datardd1 = sc.wholeTextFiles("D:\\data\\caipiao")
+    val datardd2 = sc.wholeTextFiles("D:\\data\\fangchan")
+    val datardd3 = sc.wholeTextFiles("D:\\data\\gupiao")
+    val datardd4 = sc.wholeTextFiles("D:\\data\\jiaju")
+    val datardd5 = sc.wholeTextFiles("D:\\data\\jiaoyu")
 
     val rddAll = datardd
       .union(datardd1)
@@ -53,18 +55,6 @@ object LDAModelTest {
       .union(datardd4)
       .union(datardd5)
 
-    rddAll.foreach(f => {
-      val sentence = f._2
-      val list2 = HanLP.extractKeyword(sentence, 60)
-      //    CoreStopWordDictionary.apply(list2)
-      import scala.collection.JavaConverters._
-      val sList = list2.asScala
-      //    val list = sList.map(x => x.word.replaceAll(" ", "")).toList
-      sList.foreach(f => bro2.value.+=(f))
-    })
-
-    println("bro2.value:" + bro2.value.size)
-
     val dff: DataFrame = getDF(datardd, spark, bro, bro2, 0)
     val dff1: DataFrame = getDF(datardd1, spark, bro, bro2, 1)
     val dff2: DataFrame = getDF(datardd2, spark, bro, bro2, 2)
@@ -72,16 +62,17 @@ object LDAModelTest {
     val dff4: DataFrame = getDF(datardd4, spark, bro, bro2, 4)
     val dff5: DataFrame = getDF(datardd5, spark, bro, bro2, 5)
 
-    val dffAll = dff.union(dff1).union(dff2).union(dff3).union(dff4).union(dff5)
+    val dffAll = dff
+      .union(dff1).union(dff2).union(dff3).union(dff4).union(dff5)
 
     dffAll.count()
-    println("bro.value.size:"+bro.value.size)
+    println("bro.value.size:" + bro.value.size)
     val cvModel: CountVectorizerModel = new CountVectorizer()
       .setInputCol("sentence")
       .setOutputCol("features")
       .setMinDF(3) //控制词再不同文档中出现的次数总值的最小值
       .setVocabSize(bro.value.size)
-      //      .setMinTF(2) //在控制词出现在本篇文章出现的最少次数
+      .setMinTF(2) //在控制词出现在本篇文章出现的最少次数
       .fit(dffAll)
 
     val featureDF = cvModel.transform(dffAll)
@@ -123,6 +114,8 @@ object LDAModelTest {
       .setMetricName("accuracy")
     val accuracy = evaluator.evaluate(result)
     println(accuracy)
+
+    spark.close()
   }
 
   private def getDF(datardd: RDD[(String, String)],
@@ -135,7 +128,7 @@ object LDAModelTest {
       val sb = new ArrayBuffer[String]()
       val wordsList = transform(text._2, bro)
       for (str <- wordsList) {
-        if (str.word.length > 1 && bro2.value.contains(str.word)) {
+        if (str.word.length > 1) {
           sb.append(str.word)
           bro.value.+=(str.word)
         }

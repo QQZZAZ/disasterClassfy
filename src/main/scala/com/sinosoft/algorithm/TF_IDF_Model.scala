@@ -116,31 +116,29 @@ object TF_IDF_Model {
     //    val datardd = sc.parallelize(list)
 
     val datardd = sc.textFile("D:\\data1\\caijing").repartition(8)
-//    val datardd1 = sc.textFile("D:\\data1\\caipiao").repartition(8)
+    val datardd1 = sc.textFile("D:\\data1\\caipiao").repartition(8)
     val datardd2 = sc.textFile("D:\\data1\\fangchan").repartition(8)
-//    val datardd3 = sc.textFile("D:\\data1\\gupiao").repartition(8)
+    val datardd3 = sc.textFile("D:\\data1\\gupiao").repartition(8)
     val datardd4 = sc.textFile("D:\\data1\\jiaju").repartition(8)
     val datardd5 = sc.textFile("D:\\data1\\jiaoyu").repartition(8)
 
     val dff: DataFrame = getDF(bro, datardd, spark, 0)
-//    val dff1: DataFrame = getDF(bro, datardd1, spark, 1)
+    val dff1: DataFrame = getDF(bro, datardd1, spark, 1)
     val dff2: DataFrame = getDF(bro, datardd2, spark, 2)
-//    val dff3: DataFrame = getDF(bro, datardd3, spark, 3)
+    val dff3: DataFrame = getDF(bro, datardd3, spark, 3)
     val dff4: DataFrame = getDF(bro, datardd4, spark, 4)
     val dff5: DataFrame = getDF(bro, datardd5, spark, 5)
     val dffAll = dff
-//      .union(dff1)
+      .union(dff1)
       .union(dff2)
-//      .union(dff3)
+      .union(dff3)
       .union(dff4)
       .union(dff5)
-
     //    dff.show(false)
     val tokenizer = new Tokenizer().setInputCol("sentence").setOutputCol("words")
 
     val wordDF = tokenizer.transform(dffAll)
-    dffAll.count()
-    println("bro.value.size " + bro.value.size)
+    println("bro.value.size " + dffAll.count())
     val tf = new HashingTF().setInputCol("words").setOutputCol("tfNum").setNumFeatures(bro.value.size)
     val featureDF = tf.transform(wordDF)
     val idf = new IDF().setInputCol("tfNum").setOutputCol("features")
@@ -184,8 +182,6 @@ object TF_IDF_Model {
       .setInputCol("features")
       .setOutputCol("normFeatures")
       .setP(1.0) // L1范式正则化向量 ，默认是L2范式
-
-
 
 
     val l1NormData = normalizer.transform(rescaledData).repartition(100)
@@ -245,27 +241,16 @@ object TF_IDF_Model {
       .setMinInfoGain(0.2) //一个节点分裂的最小信息增益，值为[0,1]
       .setMinInstancesPerNode(10) //每个节点包含的最小样本数
       .setProbabilityCol("prob")
+      .setSeed(123456)
 
-    //      .setSeed(123456)
-    //    val labelIndexer = new StringIndexer().setInputCol("label").setOutputCol("indexedLabel").fit(trainingData)
-
-    val KMeansdata = new KMeans()
-      .setK(4)
-      .setTol(0.001)
-      .setSeed(100)
-      .setPredictionCol("prediction")
-      .setInitMode("random")
-      .setInitSteps(2)
-      .setMaxIter(2000)
-      .setFeaturesCol("features")
+    val labelIndexer = new StringIndexer().setInputCol("label").setOutputCol("indexedLabel").fit(trainingData)
 
 
     val labelConverter = new IndexToString().
       setInputCol("prediction").
       setOutputCol("predictedLabel").
       setLabels(Array[String]("0", "1", "2", "3", "4", "5"))
-
-    /*val pipeline = new Pipeline().
+    val pipeline = new Pipeline().
       setStages(Array(dt, labelConverter))
     val model = pipeline.fit(trainingData)
 
@@ -278,9 +263,21 @@ object TF_IDF_Model {
       .setPredictionCol("prediction")
       .setMetricName("accuracy")
     val accuracy = evaluator.evaluate(predictions)
-    println(accuracy)*/
+    println(accuracy)
 
-    val kmodel = KMeansdata.fit(trainingData)
+    /* val KMeansdata = new KMeans()
+           .setK(4)
+           .setTol(0.001)
+           .setSeed(100)
+           .setPredictionCol("prediction")
+           .setInitMode("random")
+           .setInitSteps(2)
+           .setMaxIter(2000)
+           .setFeaturesCol("features")
+
+
+         */
+    /*val kmodel = KMeansdata.fit(trainingData)
     val predictions = kmodel.transform(pcaResult).select("label","prediction")
 
     predictions.groupBy("label","prediction")
@@ -295,7 +292,7 @@ object TF_IDF_Model {
     }
 
     val wsse = kmodel.computeCost(trainingData)
-    println(wsse)
+    println(wsse)*/
 
     spark.close()
   }

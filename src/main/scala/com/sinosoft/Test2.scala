@@ -21,16 +21,8 @@ import scala.util.control.Breaks
 
 object Test2 {
   def main(args: Array[String]): Unit = {
-    Logger.getLogger("org").setLevel(Level.ERROR)
-
-    val spark = SparkSession.builder()
-      .appName("ScanUsers")
-      .master("local[*]")
-      .getOrCreate();
-    val sc = spark.sparkContext
-    val array = Array(2, 4, 6, 67, 3, 45, 26, 35, 789, 345)
-    val data = sc.parallelize(array)
-    data.map(f=>f % 8).foreach(println(_))
-    spark.close()
+    val str = "D:\\1.txt"
+    val index = str.indexOf("\\",0)
+    println(index)
   }
 }
