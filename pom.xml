@@ -33,7 +33,7 @@
         <scala.version>2.11.8</scala.version>
         <spark.version>2.3.0</spark.version>
         <hadoop.version>2.7.3</hadoop.version>
-        <elasticsearch.version>6.1.1</elasticsearch.version>
+        <elasticsearch.version>7.11.2</elasticsearch.version>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-jdbc -->
